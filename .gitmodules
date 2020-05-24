@@ -1,0 +1,6 @@
+[submodule "i3/i3blocks-contrib"]
+	path = i3/i3blocks-contrib
+	url = git@github.com:Hutli/i3blocks-contrib.git
+[submodule "i3/i3blocks-status"]
+	path = i3/i3blocks-status
+	url = git@github.com:gportay/i3blocks-status.git
