@@ -4,3 +4,6 @@
 [submodule "i3/i3blocks-status"]
 	path = i3/i3blocks-status
 	url = git@github.com:gportay/i3blocks-status.git
+[submodule "settings/.oh-my-zsh"]
+	path = settings/.oh-my-zsh
+	url = git@github.com:ohmyzsh/ohmyzsh.git
