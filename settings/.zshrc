@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/zander/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -82,8 +82,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="$PATH:/home/zander/.gem/ruby/2.7.0/bin"
-export PATH="$PATH:/home/zander/Projects/depot_tools"
+export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
+export PATH="$PATH:$HOME/Projects/depot_tools"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -149,6 +149,3 @@ prompt_context() {
 
 # zmodload -i zsh/sched
 # schedprompt
-
-export EDITOR=vim
-export VISUAL=vim
