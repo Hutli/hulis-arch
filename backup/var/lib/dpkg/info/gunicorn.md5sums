@@ -1,0 +1,8 @@
+70ca4e2713bde93c4cc0fcaa9be1b54b  usr/bin/gunicorn
+6b295788f9e9579ca3104711d51c9cb5  usr/bin/gunicorn_paster
+e6dd418bbbba3987b39b8fe53eb7d332  usr/share/doc/gunicorn/NEWS.Debian.gz
+f13cba2e99dacffdb9af5165eb99746c  usr/share/doc/gunicorn/changelog.Debian.gz
+86566c547d889f1fef7c733b0e291edf  usr/share/doc/gunicorn/copyright
+256a699efb342cf59eb3c52488d82d0a  usr/share/lintian/overrides/gunicorn
+0d039e14dc6a1e3da517d71bae342c3c  usr/share/man/man1/gunicorn.1.gz
+9c4f976953caffef780cb1a0a96666db  usr/share/man/man1/gunicorn_paster.1.gz

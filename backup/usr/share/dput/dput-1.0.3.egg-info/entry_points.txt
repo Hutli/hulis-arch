@@ -1,0 +1,4 @@
+[console_scripts]
+execute-dcut = dput.dcut:dcut
+execute-dput = dput.dput:main
+

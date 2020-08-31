@@ -1,0 +1,12 @@
+ec062f5ecdd162facf6f055106c0190f  usr/share/doc/liblist-compare-perl/FAQ
+675a91fb9cfc603eb2ffa8312ba4961e  usr/share/doc/liblist-compare-perl/changelog.Debian.gz
+3bd6327d2e75e87ac9dcdf7bb053cf37  usr/share/doc/liblist-compare-perl/changelog.gz
+77ce3a02f1c00e34b2c42a3a1ccde7e8  usr/share/doc/liblist-compare-perl/copyright
+e95db0fd1d83c28a6049518713aa7419  usr/share/man/man3/List::Compare.3pm.gz
+de171fb16a498eb9e9779e99526c3ad3  usr/share/man/man3/List::Compare::Base::_Auxiliary.3pm.gz
+b5f44512cbad2a6562d5203c0be409cd  usr/share/man/man3/List::Compare::Base::_Engine.3pm.gz
+c474683d9fdd46347150a46dabf29957  usr/share/man/man3/List::Compare::Functional.3pm.gz
+54eabd67f97af1fb1aab6bd4b4baa171  usr/share/perl5/List/Compare.pm
+84f165e8b7387c4fb300cbd26dfdf0e7  usr/share/perl5/List/Compare/Base/_Auxiliary.pm
+e096ccdb4662964dbf8bca9af04a2cea  usr/share/perl5/List/Compare/Base/_Engine.pm
+f5c667390f100b3808cd58d003dc5341  usr/share/perl5/List/Compare/Functional.pm

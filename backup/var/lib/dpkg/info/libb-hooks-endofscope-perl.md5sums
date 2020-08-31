@@ -1,0 +1,12 @@
+4de019086adb72053f8991815ee40fb6  usr/share/doc/libb-hooks-endofscope-perl/CONTRIBUTING
+a658a014eddd6c6f6b79d5fd4dd1510f  usr/share/doc/libb-hooks-endofscope-perl/changelog.Debian.gz
+8432f53b5247d5c749720de620932d69  usr/share/doc/libb-hooks-endofscope-perl/changelog.gz
+1ea0f5d111fc2a2165427d0be456e16c  usr/share/doc/libb-hooks-endofscope-perl/copyright
+ddc298c1b02c183d1bde5587bd1d9a90  usr/share/man/man3/B::Hooks::EndOfScope.3pm.gz
+9299081f45af0ba3787aa2163e43dea2  usr/share/man/man3/B::Hooks::EndOfScope::PP.3pm.gz
+f9a1e1960846d806414c3114bf1e281c  usr/share/man/man3/B::Hooks::EndOfScope::XS.3pm.gz
+3b9731e44ba19c730e41ef0865a9611a  usr/share/perl5/B/Hooks/EndOfScope.pm
+4f3ca218c5aa66c30ec2240d0fb7cf5a  usr/share/perl5/B/Hooks/EndOfScope/PP.pm
+09d6d04b677cc5f27a2b04c2d4464690  usr/share/perl5/B/Hooks/EndOfScope/PP/FieldHash.pm
+207106f8d93487cd9ddfd97089b062f9  usr/share/perl5/B/Hooks/EndOfScope/PP/HintHash.pm
+e329476ce9d632219d1448c8dd641a25  usr/share/perl5/B/Hooks/EndOfScope/XS.pm

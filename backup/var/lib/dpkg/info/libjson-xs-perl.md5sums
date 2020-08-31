@@ -1,0 +1,12 @@
+54590989577eb6764278e3bc61fc3a73  usr/bin/json_xs
+49b51a82507bf378480969c28b0ebbdc  usr/lib/arm-linux-gnueabihf/perl5/5.28/JSON/XS.pm
+d12316a599f964d3a3caa0579fbc9129  usr/lib/arm-linux-gnueabihf/perl5/5.28/JSON/XS/Boolean.pm
+e4c9cdf61b1e6a5bf17f13bf7e9afe17  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/JSON/XS/XS.so
+1ab6a00fc4deb2ac65b74b574a23096c  usr/share/doc/libjson-xs-perl/changelog.Debian.armhf.gz
+9454720a1f30abd011dd3934f9a2310e  usr/share/doc/libjson-xs-perl/changelog.Debian.gz
+34778ab0fc6bdec9396ee0fb89d2ebd2  usr/share/doc/libjson-xs-perl/changelog.gz
+76fdc3868cb1328daad21706f0e4f8e4  usr/share/doc/libjson-xs-perl/copyright
+afa0ff9e01423cc1cc63dd286a869415  usr/share/doc/libjson-xs-perl/examples/bench
+82591aa1d94a2a6d5df3549524d1e4bd  usr/share/man/man1/json_xs.1p.gz
+a49454d28a09a12bfd0a0d004df6b7b4  usr/share/man/man3/JSON::XS.3pm.gz
+14f7b086998bd185d3f2089ad810068d  usr/share/man/man3/JSON::XS::Boolean.3pm.gz

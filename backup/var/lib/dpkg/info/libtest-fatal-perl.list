@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtest-fatal-perl
+/usr/share/doc/libtest-fatal-perl/changelog.Debian.gz
+/usr/share/doc/libtest-fatal-perl/changelog.gz
+/usr/share/doc/libtest-fatal-perl/examples
+/usr/share/doc/libtest-fatal-perl/examples/exception_like.t
+/usr/share/doc/libtest-fatal-perl/examples/convert-to-test-fatal
+/usr/share/doc/libtest-fatal-perl/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Test::Fatal.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/Test
+/usr/share/perl5/Test/Fatal.pm

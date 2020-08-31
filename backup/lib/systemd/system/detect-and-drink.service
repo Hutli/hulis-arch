@@ -1,0 +1,15 @@
+[Unit]
+Description=Data Useage Service
+After=network.target
+Conflicts=getty@tty1.service
+
+[Service]
+User=pi          
+Group=www-data
+WorkingDirectory=/home/pi/detect-and-drink
+Environment="PATH=/home/pi/detect-and-drink"
+ExecStart=/home/pi/detect-and-drink/detect-and-drink-env/bin/gunicorn --workers 3 --bind unix:app.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
+

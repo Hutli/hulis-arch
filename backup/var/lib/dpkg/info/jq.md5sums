@@ -1,0 +1,8 @@
+b2603d416fdf8924aadf109c988b8c91  usr/bin/jq
+665da8faf3e394b7de10c1af4a088728  usr/share/doc/jq/AUTHORS
+c918639119eeb23436656ff51dce1c13  usr/share/doc/jq/README
+ab2c32fa3497167d5f0e16210f636cc3  usr/share/doc/jq/changelog.Debian.armhf.gz
+98f7b9886b43c3ac3028ca84104b9d15  usr/share/doc/jq/changelog.Debian.gz
+71ebdef08d6145814339da04bbb38ee7  usr/share/doc/jq/changelog.gz
+b37acee70cf5ea9be197a337fa82614a  usr/share/doc/jq/copyright
+22deeb8784e0b34d18be5c455925b673  usr/share/man/man1/jq.1.gz

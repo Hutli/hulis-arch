@@ -1,0 +1,8 @@
+e5f9c8e64fe52030331d03c724bd8f05  usr/lib/arm-linux-gnueabihf/perl5/5.28/Devel/CallChecker.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Devel/CallChecker/CallChecker.bs
+6ce8c69bab3a3a13d2dcb6cc711a7529  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Devel/CallChecker/CallChecker.so
+d460cc421ad6c85a347fd40245b84a07  usr/share/doc/libdevel-callchecker-perl/README
+2e2c863f1b77d63692879cd367e87e6f  usr/share/doc/libdevel-callchecker-perl/changelog.Debian.gz
+27d01ceae75845275befcc04b2503a70  usr/share/doc/libdevel-callchecker-perl/changelog.gz
+19a288e715383011536fd8a938838172  usr/share/doc/libdevel-callchecker-perl/copyright
+d743f102591c7c5b47fe2aa0212e4965  usr/share/man/man3/Devel::CallChecker.3pm.gz

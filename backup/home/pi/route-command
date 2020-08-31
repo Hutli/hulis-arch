@@ -1,0 +1,1 @@
+ip route add 192.168.100.1 via 194.168.22.1 dev wlan0

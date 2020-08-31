@@ -1,0 +1,4 @@
+# They are available as libfusion.so, etc.
+libdirectfb-1.7-7: dev-pkg-without-shlib-symlink usr/lib/*/libfusion-*.so.*
+libdirectfb-1.7-7: dev-pkg-without-shlib-symlink usr/lib/*/libdirectfb-*.so.*
+libdirectfb-1.7-7: dev-pkg-without-shlib-symlink usr/lib/*/libdirect-*.so.*

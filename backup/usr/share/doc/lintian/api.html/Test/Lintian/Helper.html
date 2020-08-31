@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>Test::Lintian::Helper</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" title="blkbluw" type="text/css" href="../../_blkbluw.css" media="all" >
+<link rel="alternate stylesheet" title="blkmagw" type="text/css" href="../../_blkmagw.css" media="all" >
+<link rel="alternate stylesheet" title="blkcynw" type="text/css" href="../../_blkcynw.css" media="all" >
+<link rel="alternate stylesheet" title="whtprpk" type="text/css" href="../../_whtprpk.css" media="all" >
+<link rel="alternate stylesheet" title="whtnavk" type="text/css" href="../../_whtnavk.css" media="all" >
+<link rel="alternate stylesheet" title="grygrnk" type="text/css" href="../../_grygrnk.css" media="all" >
+<link rel="alternate stylesheet" title="whtgrng" type="text/css" href="../../_whtgrng.css" media="all" >
+<link rel="alternate stylesheet" title="blkgrng" type="text/css" href="../../_blkgrng.css" media="all" >
+<link rel="alternate stylesheet" title="grygrnw" type="text/css" href="../../_grygrnw.css" media="all" >
+<link rel="alternate stylesheet" title="blkbluw" type="text/css" href="../../_blkbluw.css" media="all" >
+<link rel="alternate stylesheet" title="whtpurk" type="text/css" href="../../_whtpurk.css" media="all" >
+<link rel="alternate stylesheet" title="whtgrng" type="text/css" href="../../_whtgrng.css" media="all" >
+<link rel="alternate stylesheet" title="grygrnw" type="text/css" href="../../_grygrnw.css" media="all" >
+
+<script type="text/javascript" src="../../_podly.js"></script>
+
+</head>
+<body class='pod'>
+
+<!-- start doc -->
+<p class="backlinktop"><b><a name="___top" href="../../index.html" accesskey="1" title="All Documents">&lt;&lt;</a></b></p>
+
+<div class='indexgroup'>
+<ul   class='indexList indexList1'>
+  <li class='indexItem indexItem1'><a href='#NAME'>NAME</a>
+  <li class='indexItem indexItem1'><a href='#SYNOPSIS'>SYNOPSIS</a>
+  <li class='indexItem indexItem1'><a href='#DESCRIPTION'>DESCRIPTION</a>
+  <li class='indexItem indexItem1'><a href='#FUNCTIONS'>FUNCTIONS</a>
+</ul>
+</div>
+
+<h1><a class='u' href='#___top' title='click to go to top of document'
+name="NAME"
+>NAME</a></h1>
+
+<p>Test::Lintian::Helper -- Helper functions for various testing parts</p>
+
+<h1><a class='u' href='#___top' title='click to go to top of document'
+name="SYNOPSIS"
+>SYNOPSIS</a></h1>
+
+<pre>  use Test::Lintian::Helper qw(get_latest_policy);
+  my $policy_version = get_latest_policy();</pre>
+
+<h1><a class='u' href='#___top' title='click to go to top of document'
+name="DESCRIPTION"
+>DESCRIPTION</a></h1>
+
+<p>Helper functions for preparing and running Lintian tests.</p>
+
+<h1><a class='u' href='#___top' title='click to go to top of document'
+name="FUNCTIONS"
+>FUNCTIONS</a></h1>
+
+<dl>
+<dt><a name="cache_dpkg_architecture_values()"
+>cache_dpkg_architecture_values()</a></dt>
+
+<dd>
+<p>Ensures that the output from dpkg-architecture has been cached.</p>
+
+<dt><a name="get_latest_policy()"
+>get_latest_policy()</a></dt>
+
+<dd>
+<p>Returns a list with two elements. The first is the most recent version of the Debian policy. The second is its effective date.</p>
+
+<dt><a name="get_recommended_debhelper_version()"
+>get_recommended_debhelper_version()</a></dt>
+
+<dd>
+<p>Returns the version of debhelper recommended in &#39;debhelper/compat-level&#39; via Lintian::Data, relative to the established LINTIAN_ROOT.</p>
+
+<dt><a name="get_required_debhelper_version()"
+>get_required_debhelper_version()</a></dt>
+
+<dd>
+<p>Returns the version of debhelper required in the file &#39;debian/control&#39; relative to the established LINTIAN_ROOT. The return value is the exact string, which can include characters like a tilde.</p>
+
+<dt><a name="copy_dir_contents(SRC_DIR,_TARGET_DIR)"
+>copy_dir_contents(SRC_DIR, TARGET_DIR)</a></dt>
+
+<dd>
+<p>Populates TARGET_DIR with files/dirs from SRC_DIR, preserving all attributes but dereferencing links. For an empty directory, no dummy file is required.</p>
+
+<dt><a name="rfc822date(EPOCH)"
+>rfc822date(EPOCH)</a></dt>
+
+<dd>
+<p>Returns a string with the date and time described by EPOCH, formatted according to RFC822.</p>
+</dd>
+</dl>
+<p class="backlinkbottom"><b><a name="___bottom" href="../../index.html" title="All Documents">&lt;&lt;</a></b></p>
+
+<!-- end doc -->
+
+</body></html>

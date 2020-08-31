@@ -1,0 +1,7 @@
+03764e9fd11e854d731d494446f462fd  usr/bin/shell-quote
+7ed2dbfcb56b0f3a484ae76eae2fa33b  usr/share/doc/libstring-shellquote-perl/changelog.Debian.gz
+1b58b3d42dc6e93d58cc60746b32aed1  usr/share/doc/libstring-shellquote-perl/changelog.gz
+8c6429a284255e8fc6772abbaaecf8c4  usr/share/doc/libstring-shellquote-perl/copyright
+b3a4f96ec8bfb3e1b794f78cce4d0332  usr/share/man/man1/shell-quote.1p.gz
+26a1a641bb4f38ce571a4cceda3dfa69  usr/share/man/man3/String::ShellQuote.3pm.gz
+72e6cd577c149d5bf316fa554a1a5c6b  usr/share/perl5/String/ShellQuote.pm

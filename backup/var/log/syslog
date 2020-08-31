@@ -1,0 +1,746 @@
+Aug 18 00:00:28 raspberrypi rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="301" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Aug 18 00:00:28 raspberrypi systemd[1]: logrotate.service: Succeeded.
+Aug 18 00:00:28 raspberrypi systemd[1]: Started Rotate log files.
+Aug 18 00:00:31 raspberrypi systemd[1]: man-db.service: Succeeded.
+Aug 18 00:00:31 raspberrypi systemd[1]: Started Daily man-db regeneration.
+Aug 18 00:05:02 raspberrypi systemd[1]: Starting Daily apt download activities...
+Aug 18 00:05:41 raspberrypi systemd[1]: apt-daily.service: Succeeded.
+Aug 18 00:05:41 raspberrypi systemd[1]: Started Daily apt download activities.
+Aug 18 00:17:01 raspberrypi CRON[1031]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 140064
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 94336
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 94336
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 7
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=590.175; max=853.415)Kibits/s
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.143; max=6.516)Mibits/s
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 00:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 01:17:01 raspberrypi CRON[1072]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 180064
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 124096
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 124096
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 9
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=633.042; max=853.415)Kibits/s
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.366; max=6.516)Mibits/s
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 01:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 01:43:18 raspberrypi systemd[1]: Starting Certbot...
+Aug 18 01:43:23 raspberrypi systemd[1]: certbot.service: Succeeded.
+Aug 18 01:43:23 raspberrypi systemd[1]: Started Certbot.
+Aug 18 02:17:01 raspberrypi CRON[1117]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 200064
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 154336
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 154336
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 10
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=649.684; max=853.415)Kibits/s
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.460; max=6.516)Mibits/s
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 02:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 03:17:01 raspberrypi CRON[1157]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 240064
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 184096
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 184096
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 12
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=676.682; max=854.647)Kibits/s
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.590; max=6.516)Mibits/s
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 03:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 04:17:02 raspberrypi CRON[1197]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 260064
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 214336
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 214336
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 13
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=687.545; max=854.647)Kibits/s
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.651; max=6.516)Mibits/s
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 04:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 05:17:01 raspberrypi CRON[1237]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 300064
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 244096
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 244096
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 15
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=705.035; max=854.647)Kibits/s
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.753; max=6.516)Mibits/s
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 05:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 06:13:32 raspberrypi systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 18 06:13:48 raspberrypi systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 18 06:13:48 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 18 06:17:01 raspberrypi CRON[1344]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: bits received from HRNG source: 320064
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: bits sent to kernel pool: 274336
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: entropy added to kernel pool: 274336
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 successes: 16
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2 failures: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: HRNG source speed: (min=420.733; avg=712.865; max=855.358)Kibits/s
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: FIPS tests speed: (min=2.879; avg=5.795; max=6.516)Mibits/s
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: Lowest ready-buffers level: 2
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: Entropy starvations: 0
+Aug 18 06:17:06 raspberrypi rngd[328]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Aug 18 06:25:01 raspberrypi CRON[1364]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Aug 18 06:38:49 raspberrypi kernel: [33715.278167] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+Aug 18 06:38:49 raspberrypi dhcpcd[381]: eth0: carrier acquired
+Aug 18 06:38:49 raspberrypi kernel: [33715.280262] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Aug 18 06:38:49 raspberrypi dhcpcd[381]: DUID 00:01:00:01:25:d8:32:1b:40:a5:ef:05:8f:53
+Aug 18 06:38:49 raspberrypi dhcpcd[381]: eth0: IAID eb:7c:20:bc
+Aug 18 06:38:49 raspberrypi dhcpcd[381]: eth0: adding address fe80::2675:a604:50fd:63e9
+Aug 18 06:38:49 raspberrypi avahi-daemon[302]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::2675:a604:50fd:63e9.
+Aug 18 06:38:49 raspberrypi dhcpcd[381]: eth0: probing address 151.216.10.55/23
+Aug 18 06:38:49 raspberrypi avahi-daemon[302]: New relevant interface eth0.IPv6 for mDNS.
+Aug 18 06:38:49 raspberrypi avahi-daemon[302]: Registering new address record for fe80::2675:a604:50fd:63e9 on eth0.*.
+Aug 18 06:38:50 raspberrypi dhcpcd[381]: eth0: soliciting an IPv6 router
+Aug 18 06:38:55 raspberrypi dhcpcd[381]: eth0: using static address 151.216.10.55/23
+Aug 18 06:38:55 raspberrypi avahi-daemon[302]: Joining mDNS multicast group on interface eth0.IPv4 with address 151.216.10.55.
+Aug 18 06:38:55 raspberrypi avahi-daemon[302]: New relevant interface eth0.IPv4 for mDNS.
+Aug 18 06:38:55 raspberrypi dhcpcd[381]: eth0: adding route to 151.216.10.0/23
+Aug 18 06:38:55 raspberrypi avahi-daemon[302]: Registering new address record for 151.216.10.55 on eth0.IPv4.
+Aug 18 06:38:55 raspberrypi dhcpcd[381]: eth0: adding default route via 151.216.10.1
+Aug 18 06:39:03 raspberrypi dhcpcd[381]: eth0: no IPv6 Routers available
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0xf00
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Linux version 5.4.51-v7+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1333 SMP Mon Aug 10 16:45:19 BST 2020
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c5387d
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 2 Model B Rev 1.1
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Memory policy: Data cache writealloc
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Reserved memory: created CMA memory pool at 0x37400000, size 64 MiB
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] percpu: Embedded 20 pages/cpu s49856 r8192 d23872 u81920
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Kernel command line: coherent_pool=1M snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 snd_bcm2835.enable_headphones=1 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=512 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] Memory: 881524K/970752K available (8192K kernel code, 689K rwdata, 2552K rodata, 1024K init, 825K bss, 23692K reserved, 65536K cma-reserved)
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] ftrace: allocating 28275 entries in 56 pages
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] rcu: Hierarchical RCU implementation.
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x328/0x500 with crng_init=0
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Aug 18 06:17:06 raspberrypi kernel: [    0.000011] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Aug 18 06:17:06 raspberrypi kernel: [    0.000030] Switching to timer-based delay loop, resolution 52ns
+Aug 18 06:17:06 raspberrypi kernel: [    0.000367] Console: colour dummy device 80x30
+Aug 18 06:17:06 raspberrypi kernel: [    0.001030] printk: console [tty1] enabled
+Aug 18 06:17:06 raspberrypi kernel: [    0.001118] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Aug 18 06:17:06 raspberrypi kernel: [    0.001176] pid_max: default: 32768 minimum: 301
+Aug 18 06:17:06 raspberrypi kernel: [    0.001678] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    0.001739] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    0.003547] Disabling memory control group subsystem
+Aug 18 06:17:06 raspberrypi kernel: [    0.003731] CPU: Testing write buffer coherency: ok
+Aug 18 06:17:06 raspberrypi kernel: [    0.004575] CPU0: update cpu_capacity 1024
+Aug 18 06:17:06 raspberrypi kernel: [    0.004626] CPU0: thread -1, cpu 0, socket 15, mpidr 80000f00
+Aug 18 06:17:06 raspberrypi kernel: [    0.005984] Setting up static identity map for 0x100000 - 0x10003c
+Aug 18 06:17:06 raspberrypi kernel: [    0.006300] rcu: Hierarchical SRCU implementation.
+Aug 18 06:17:06 raspberrypi kernel: [    0.007283] smp: Bringing up secondary CPUs ...
+Aug 18 06:17:06 raspberrypi kernel: [    0.008954] CPU1: update cpu_capacity 1024
+Aug 18 06:17:06 raspberrypi kernel: [    0.008967] CPU1: thread -1, cpu 1, socket 15, mpidr 80000f01
+Aug 18 06:17:06 raspberrypi kernel: [    0.011053] CPU2: update cpu_capacity 1024
+Aug 18 06:17:06 raspberrypi kernel: [    0.011065] CPU2: thread -1, cpu 2, socket 15, mpidr 80000f02
+Aug 18 06:17:06 raspberrypi kernel: [    0.012732] CPU3: update cpu_capacity 1024
+Aug 18 06:17:06 raspberrypi kernel: [    0.012743] CPU3: thread -1, cpu 3, socket 15, mpidr 80000f03
+Aug 18 06:17:06 raspberrypi kernel: [    0.012947] smp: Brought up 1 node, 4 CPUs
+Aug 18 06:17:06 raspberrypi kernel: [    0.013069] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Aug 18 06:17:06 raspberrypi kernel: [    0.013102] CPU: All CPU(s) started in HYP mode.
+Aug 18 06:17:06 raspberrypi kernel: [    0.013130] CPU: Virtualization extensions available.
+Aug 18 06:17:06 raspberrypi kernel: [    0.014464] devtmpfs: initialized
+Aug 18 06:17:06 raspberrypi kernel: [    0.033957] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Aug 18 06:17:06 raspberrypi kernel: [    0.034439] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Aug 18 06:17:06 raspberrypi kernel: [    0.034514] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    0.038545] pinctrl core: initialized pinctrl subsystem
+Aug 18 06:17:06 raspberrypi kernel: [    0.040439] NET: Registered protocol family 16
+Aug 18 06:17:06 raspberrypi kernel: [    0.045300] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Aug 18 06:17:06 raspberrypi kernel: [    0.053466] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Aug 18 06:17:06 raspberrypi kernel: [    0.053528] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Aug 18 06:17:06 raspberrypi kernel: [    0.053857] Serial: AMBA PL011 UART driver
+Aug 18 06:17:06 raspberrypi kernel: [    0.056650] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Aug 18 06:17:06 raspberrypi kernel: [    0.079216] raspberrypi-firmware soc:firmware: Attached to firmware from 2020-08-06 16:24, variant start
+Aug 18 06:17:06 raspberrypi kernel: [    0.089229] raspberrypi-firmware soc:firmware: Firmware hash is af3edc2de473197cdfe1ff5a8ff2d34095d5b336
+Aug 18 06:17:06 raspberrypi kernel: [    0.152663] bcm2835-dma 3f007000.dma: DMA legacy API manager, dmachans=0x1
+Aug 18 06:17:06 raspberrypi kernel: [    0.155532] SCSI subsystem initialized
+Aug 18 06:17:06 raspberrypi kernel: [    0.155914] usbcore: registered new interface driver usbfs
+Aug 18 06:17:06 raspberrypi kernel: [    0.156044] usbcore: registered new interface driver hub
+Aug 18 06:17:06 raspberrypi kernel: [    0.156267] usbcore: registered new device driver usb
+Aug 18 06:17:06 raspberrypi kernel: [    0.158731] clocksource: Switched to clocksource arch_sys_counter
+Aug 18 06:17:06 raspberrypi kernel: [    1.320916] VFS: Disk quotas dquot_6.6.0
+Aug 18 06:17:06 raspberrypi kernel: [    1.321116] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 18 06:17:06 raspberrypi kernel: [    1.321419] FS-Cache: Loaded
+Aug 18 06:17:06 raspberrypi kernel: [    1.321815] CacheFiles: Loaded
+Aug 18 06:17:06 raspberrypi kernel: [    1.337276] thermal_sys: Registered thermal governor 'step_wise'
+Aug 18 06:17:06 raspberrypi kernel: [    1.337851] NET: Registered protocol family 2
+Aug 18 06:17:06 raspberrypi kernel: [    1.339308] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    1.339406] TCP established hash table entries: 8192 (order: 3, 32768 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    1.339572] TCP bind hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    1.339793] TCP: Hash tables configured (established 8192 bind 8192)
+Aug 18 06:17:06 raspberrypi kernel: [    1.340053] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    1.340152] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+Aug 18 06:17:06 raspberrypi kernel: [    1.340623] NET: Registered protocol family 1
+Aug 18 06:17:06 raspberrypi kernel: [    1.341890] RPC: Registered named UNIX socket transport module.
+Aug 18 06:17:06 raspberrypi kernel: [    1.341943] RPC: Registered udp transport module.
+Aug 18 06:17:06 raspberrypi kernel: [    1.341974] RPC: Registered tcp transport module.
+Aug 18 06:17:06 raspberrypi kernel: [    1.342004] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 18 06:17:06 raspberrypi kernel: [    1.343956] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 5 counters available
+Aug 18 06:17:06 raspberrypi kernel: [    1.348414] Initialise system trusted keyrings
+Aug 18 06:17:06 raspberrypi kernel: [    1.349010] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Aug 18 06:17:06 raspberrypi kernel: [    1.364715] FS-Cache: Netfs 'nfs' registered for caching
+Aug 18 06:17:06 raspberrypi kernel: [    1.366106] NFS: Registering the id_resolver key type
+Aug 18 06:17:06 raspberrypi kernel: [    1.366204] Key type id_resolver registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.366237] Key type id_legacy registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.366281] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Aug 18 06:17:06 raspberrypi kernel: [    1.368063] Key type asymmetric registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.368107] Asymmetric key parser 'x509' registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.368200] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Aug 18 06:17:06 raspberrypi kernel: [    1.368245] io scheduler mq-deadline registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.368277] io scheduler kyber registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.371836] bcm2708_fb soc:fb: FB found 1 display(s)
+Aug 18 06:17:06 raspberrypi kernel: [    1.387759] Console: switching to colour frame buffer device 82x32
+Aug 18 06:17:06 raspberrypi kernel: [    1.394337] bcm2708_fb soc:fb: Registered framebuffer for display 0, size 656x512
+Aug 18 06:17:06 raspberrypi kernel: [    1.404437] bcm2835-rng 3f104000.rng: hwrng registered
+Aug 18 06:17:06 raspberrypi kernel: [    1.408601] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Aug 18 06:17:06 raspberrypi fake-hwclock[117]: Tue 18 Aug 05:17:01 UTC 2020
+Aug 18 06:17:06 raspberrypi systemd-fsck[128]: e2fsck 1.44.5 (15-Dec-2018)
+Aug 18 06:17:06 raspberrypi systemd-fsck[128]: rootfs: clean, 173499/465856 files, 1474326/1873920 blocks
+Aug 18 06:17:06 raspberrypi systemd[1]: Started File System Check on Root Device.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Helper to synchronize boot up for ifupdown.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Create System Users...
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Create System Users.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Create Static Device Nodes in /dev...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Aug 18 06:17:06 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Aug 18 06:17:06 raspberrypi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Aug 18 06:17:06 raspberrypi mtp-probe: bus: 1, device: 3 was not an MTP device
+Aug 18 06:17:06 raspberrypi systemd-udevd[144]: Using default interface naming scheme 'v240'.
+Aug 18 06:17:06 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/738a4d67-01.
+Aug 18 06:17:06 raspberrypi systemd-udevd[152]: Process '/usr/sbin/alsactl -E HOME=/run/alsa restore 0' failed with exit code 99.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/738a4d67-01...
+Aug 18 06:17:06 raspberrypi systemd-fsck[236]: fsck.fat 4.1 (2017-01-24)
+Aug 18 06:17:06 raspberrypi systemd-fsck[236]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Aug 18 06:17:06 raspberrypi systemd-fsck[236]:  Automatically removing dirty bit.
+Aug 18 06:17:06 raspberrypi systemd-fsck[236]: Performing changes.
+Aug 18 06:17:06 raspberrypi systemd-fsck[236]: /dev/mmcblk0p1: 241 files, 109198/516190 clusters
+Aug 18 06:17:06 raspberrypi kernel: [    1.416666] vc-sm: Videocore shared memory driver
+Aug 18 06:17:06 raspberrypi kernel: [    1.420952] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Aug 18 06:17:06 raspberrypi kernel: [    1.447143] brd: module loaded
+Aug 18 06:17:06 raspberrypi kernel: [    1.468581] loop: module loaded
+Aug 18 06:17:06 raspberrypi kernel: [    1.474267] Loading iSCSI transport class v2.0-870.
+Aug 18 06:17:06 raspberrypi kernel: [    1.479282] libphy: Fixed MDIO Bus: probed
+Aug 18 06:17:06 raspberrypi kernel: [    1.483064] usbcore: registered new interface driver lan78xx
+Aug 18 06:17:06 raspberrypi kernel: [    1.486802] usbcore: registered new interface driver smsc95xx
+Aug 18 06:17:06 raspberrypi kernel: [    1.490431] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Aug 18 06:17:06 raspberrypi kernel: [    2.222381] Core Release: 2.80a
+Aug 18 06:17:06 raspberrypi kernel: [    2.225902] Setting default values for core params
+Aug 18 06:17:06 raspberrypi kernel: [    2.229574] Finished setting default values for core params
+Aug 18 06:17:06 raspberrypi kernel: [    2.433579] Using Buffer DMA mode
+Aug 18 06:17:06 raspberrypi kernel: [    2.437083] Periodic Transfer Interrupt Enhancement - disabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.440708] Multiprocessor Interrupt Enhancement - disabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.444274] OTG VER PARAM: 0, OTG VER FLAG: 0
+Aug 18 06:17:06 raspberrypi kernel: [    2.447792] Dedicated Tx FIFOs mode
+Aug 18 06:17:06 raspberrypi kernel: [    2.452082] WARN::dwc_otg_hcd_init:1074: FIQ DMA bounce buffers: virt = b7514000 dma = 0xf7514000 len=9024
+Aug 18 06:17:06 raspberrypi kernel: [    2.459346] FIQ FSM acceleration enabled for :
+Aug 18 06:17:06 raspberrypi kernel: [    2.459346] Non-periodic Split Transactions
+Aug 18 06:17:06 raspberrypi kernel: [    2.459346] Periodic Split Transactions
+Aug 18 06:17:06 raspberrypi kernel: [    2.459346] High-Speed Isochronous Endpoints
+Aug 18 06:17:06 raspberrypi kernel: [    2.459346] Interrupt/Control Split Transaction hack enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.476503] dwc_otg: Microframe scheduler enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.476719] WARN::hcd_init_fiq:457: FIQ on core 1
+Aug 18 06:17:06 raspberrypi kernel: [    2.479996] WARN::hcd_init_fiq:458: FIQ ASM at 806d89f4 length 36
+Aug 18 06:17:06 raspberrypi kernel: [    2.483254] WARN::hcd_init_fiq:497: MPHI regs_base at bb810000
+Aug 18 06:17:06 raspberrypi kernel: [    2.486441] dwc_otg 3f980000.usb: DWC OTG Controller
+Aug 18 06:17:06 raspberrypi kernel: [    2.489621] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Aug 18 06:17:06 raspberrypi kernel: [    2.492878] dwc_otg 3f980000.usb: irq 56, io mem 0x00000000
+Aug 18 06:17:06 raspberrypi kernel: [    2.496127] Init: Port Power? op_state=1
+Aug 18 06:17:06 raspberrypi kernel: [    2.499336] Init: Power Port (0)
+Aug 18 06:17:06 raspberrypi kernel: [    2.502916] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Aug 18 06:17:06 raspberrypi kernel: [    2.509449] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 18 06:17:06 raspberrypi kernel: [    2.512932] usb usb1: Product: DWC OTG Controller
+Aug 18 06:17:06 raspberrypi kernel: [    2.516351] usb usb1: Manufacturer: Linux 5.4.51-v7+ dwc_otg_hcd
+Aug 18 06:17:06 raspberrypi kernel: [    2.519850] usb usb1: SerialNumber: 3f980000.usb
+Aug 18 06:17:06 raspberrypi kernel: [    2.524303] hub 1-0:1.0: USB hub found
+Aug 18 06:17:06 raspberrypi kernel: [    2.527762] hub 1-0:1.0: 1 port detected
+Aug 18 06:17:06 raspberrypi kernel: [    2.532114] dwc_otg: FIQ enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532128] dwc_otg: NAK holdoff enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532138] dwc_otg: FIQ split-transaction FSM enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532174] Module dwc_common_port init
+Aug 18 06:17:06 raspberrypi kernel: [    2.532641] usbcore: registered new interface driver usb-storage
+Aug 18 06:17:06 raspberrypi kernel: [    2.536329] mousedev: PS/2 mouse device common for all mice
+Aug 18 06:17:06 raspberrypi kernel: [    2.541492] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Aug 18 06:17:06 raspberrypi kernel: [    2.547625] sdhci: Secure Digital Host Controller Interface driver
+Aug 18 06:17:06 raspberrypi kernel: [    2.551122] sdhci: Copyright(c) Pierre Ossman
+Aug 18 06:17:06 raspberrypi kernel: [    2.555265] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Aug 18 06:17:06 raspberrypi kernel: [    2.559015] sdhci-pltfm: SDHCI platform and OF driver helper
+Aug 18 06:17:06 raspberrypi kernel: [    2.563629] ledtrig-cpu: registered to indicate activity on CPUs
+Aug 18 06:17:06 raspberrypi kernel: [    2.567538] hidraw: raw HID events driver (C) Jiri Kosina
+Aug 18 06:17:06 raspberrypi kernel: [    2.571331] usbcore: registered new interface driver usbhid
+Aug 18 06:17:06 raspberrypi kernel: [    2.574880] usbhid: USB HID core driver
+Aug 18 06:17:06 raspberrypi kernel: [    2.579574] vchiq: vchiq_init_state: slot_zero = (ptrval)
+Aug 18 06:17:06 raspberrypi kernel: [    2.585350] [vc_sm_connected_init]: start
+Aug 18 06:17:06 raspberrypi kernel: [    2.594720] [vc_sm_connected_init]: end - returning 0
+Aug 18 06:17:06 raspberrypi kernel: [    2.600927] Initializing XFRM netlink socket
+Aug 18 06:17:06 raspberrypi kernel: [    2.604502] NET: Registered protocol family 17
+Aug 18 06:17:06 raspberrypi kernel: [    2.608153] Key type dns_resolver registered
+Aug 18 06:17:06 raspberrypi kernel: [    2.612249] Registering SWP/SWPB emulation handler
+Aug 18 06:17:06 raspberrypi kernel: [    2.616239] registered taskstats version 1
+Aug 18 06:17:06 raspberrypi kernel: [    2.619715] Loading compiled-in X.509 certificates
+Aug 18 06:17:06 raspberrypi kernel: [    2.623738] Key type ._fscrypt registered
+Aug 18 06:17:06 raspberrypi kernel: [    2.626978] Key type .fscrypt registered
+Aug 18 06:17:06 raspberrypi kernel: [    2.643675] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.647087] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 81, base_baud = 0) is a PL011 rev2
+Aug 18 06:17:06 raspberrypi kernel: [    2.656640] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Aug 18 06:17:06 raspberrypi kernel: [    2.662262] sdhost: log_buf @ (ptrval) (f7513000)
+Aug 18 06:17:06 raspberrypi kernel: [    2.713783] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Aug 18 06:17:06 raspberrypi kernel: [    2.720715] of_cfs_init
+Aug 18 06:17:06 raspberrypi kernel: [    2.724531] of_cfs_init: OK
+Aug 18 06:17:06 raspberrypi kernel: [    2.729199] Waiting for root device PARTUUID=738a4d67-02...
+Aug 18 06:17:06 raspberrypi kernel: [    2.758963] Indeed it is in host mode hprt0 = 00021501
+Aug 18 06:17:06 raspberrypi kernel: [    2.848746] random: fast init done
+Aug 18 06:17:06 raspberrypi kernel: [    2.858616] mmc0: host does not support reading read-only switch, assuming write-enable
+Aug 18 06:17:06 raspberrypi kernel: [    2.869536] mmc0: new high speed SDHC card at address aaaa
+Aug 18 06:17:06 raspberrypi kernel: [    2.874301] mmcblk0: mmc0:aaaa SL08G 7.40 GiB
+Aug 18 06:17:06 raspberrypi kernel: [    2.881255]  mmcblk0: p1 p2
+Aug 18 06:17:06 raspberrypi kernel: [    2.914998] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Aug 18 06:17:06 raspberrypi kernel: [    2.918571] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Aug 18 06:17:06 raspberrypi kernel: [    2.968805] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Aug 18 06:17:06 raspberrypi kernel: [    2.972641] Indeed it is in host mode hprt0 = 00001101
+Aug 18 06:17:06 raspberrypi kernel: [    3.143246] EXT4-fs (mmcblk0p2): recovery complete
+Aug 18 06:17:06 raspberrypi kernel: [    3.153071] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Aug 18 06:17:06 raspberrypi kernel: [    3.160630] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Aug 18 06:17:06 raspberrypi kernel: [    3.173335] devtmpfs: mounted
+Aug 18 06:17:06 raspberrypi kernel: [    3.186017] Freeing unused kernel memory: 1024K
+Aug 18 06:17:06 raspberrypi kernel: [    3.190365] Run /sbin/init as init process
+Aug 18 06:17:06 raspberrypi kernel: [    3.209279] usb 1-1: New USB device found, idVendor=0424, idProduct=9514, bcdDevice= 2.00
+Aug 18 06:17:06 raspberrypi kernel: [    3.216937] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Aug 18 06:17:06 raspberrypi kernel: [    3.221931] hub 1-1:1.0: USB hub found
+Aug 18 06:17:06 raspberrypi kernel: [    3.225898] hub 1-1:1.0: 5 ports detected
+Aug 18 06:17:06 raspberrypi kernel: [    3.548843] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Aug 18 06:17:06 raspberrypi kernel: [    3.679372] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00, bcdDevice= 2.00
+Aug 18 06:17:06 raspberrypi kernel: [    3.687238] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Aug 18 06:17:06 raspberrypi kernel: [    3.694603] smsc95xx v1.0.6
+Aug 18 06:17:06 raspberrypi kernel: [    3.794425] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:7c:20:bc
+Aug 18 06:17:06 raspberrypi kernel: [    4.047449] NET: Registered protocol family 10
+Aug 18 06:17:06 raspberrypi kernel: [    4.053922] Segment Routing with IPv6
+Aug 18 06:17:06 raspberrypi kernel: [    5.398062] random: systemd: uninitialized urandom read (16 bytes read)
+Aug 18 06:17:06 raspberrypi kernel: [    5.420087] random: systemd: uninitialized urandom read (16 bytes read)
+Aug 18 06:17:06 raspberrypi kernel: [    5.443425] random: systemd: uninitialized urandom read (16 bytes read)
+Aug 18 06:17:06 raspberrypi kernel: [    6.549353] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Aug 18 06:17:06 raspberrypi kernel: [    7.404239] rc rc0: GPIO IR Bit Banging Transmitter as /devices/platform/gpio-ir-transmitter@12/rc/rc0
+Aug 18 06:17:06 raspberrypi kernel: [    7.411635] rc rc0: lirc_dev: driver gpio-ir-tx registered at minor = 0, no receiver, raw IR transmitter
+Aug 18 06:17:06 raspberrypi kernel: [    7.479776] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.482973] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Aug 18 06:17:06 raspberrypi kernel: [    7.483016] [vc_sm_connected_init]: start
+Aug 18 06:17:06 raspberrypi kernel: [    7.491743] mc: Linux media interface: v0.10
+Aug 18 06:17:06 raspberrypi kernel: [    7.492681] [vc_sm_connected_init]: installed successfully
+Aug 18 06:17:06 raspberrypi kernel: [    7.567326] videodev: Linux video capture interface: v2.00
+Aug 18 06:17:06 raspberrypi kernel: [    7.616300] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.616313] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.622026] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.637269] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.649845] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.666521] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.676049] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Aug 18 06:17:06 raspberrypi kernel: [    7.682751] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Aug 18 06:17:06 raspberrypi kernel: [    7.691452] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Aug 18 06:17:06 raspberrypi kernel: [    7.691693] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Aug 18 06:17:06 raspberrypi kernel: [    7.693311] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Aug 18 06:17:06 raspberrypi kernel: [    7.701870] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Aug 18 06:17:06 raspberrypi kernel: [    7.702593] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Aug 18 06:17:06 raspberrypi kernel: [    7.702641] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Aug 18 06:17:06 raspberrypi kernel: [    7.702669] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Aug 18 06:17:06 raspberrypi kernel: [    7.702692] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Aug 18 06:17:06 raspberrypi kernel: [    7.702714] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Aug 18 06:17:06 raspberrypi kernel: [    7.703029] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Aug 18 06:17:06 raspberrypi kernel: [    7.714391] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Aug 18 06:17:06 raspberrypi kernel: [    7.714466] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Aug 18 06:17:06 raspberrypi kernel: [    7.725681] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Aug 18 06:17:06 raspberrypi kernel: [    7.725818] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Aug 18 06:17:06 raspberrypi kernel: [    7.741230] bcm2835_audio bcm2835_audio: card created with 4 channels
+Aug 18 06:17:06 raspberrypi kernel: [    7.751628] bcm2835_audio bcm2835_audio: card created with 4 channels
+Aug 18 06:17:06 raspberrypi kernel: [   11.226830] random: crng init done
+Aug 18 06:17:06 raspberrypi kernel: [   11.226856] random: 7 urandom warning(s) missed due to ratelimiting
+Aug 18 06:17:06 raspberrypi systemd[1]: Started File System Check on /dev/disk/by-partuuid/738a4d67-01.
+Aug 18 06:17:06 raspberrypi systemd[1]: Mounting /boot...
+Aug 18 06:17:06 raspberrypi systemd[1]: Mounted /boot.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Local File Systems.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Raise network interfaces...
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Set console font and keymap...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Set console font and keymap.
+Aug 18 06:17:06 raspberrypi systemd[1]: nfs-config.service: Succeeded.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS client and server being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS server being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target NFS client services.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Remote File Systems.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Raise network interfaces.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Network Time Synchronization.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target System Initialization.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Aug 18 06:17:06 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Docker Socket for the API.
+Aug 18 06:17:06 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Aug 18 06:17:06 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Aug 18 06:17:06 raspberrypi systemd[1]: Listening on lircd.socket.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Run certbot twice daily.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Daily man-db regeneration.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Daily apt download activities.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Daily rotation of log files.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Timers.
+Aug 18 06:17:06 raspberrypi systemd[1]: Listening on Docker Socket for the API.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Sockets.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Basic System.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Deferred execution scheduler...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting System Logging Service...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Check for Raspberry Pi EEPROM updates...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting rng-tools.service...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Manage Sound Card State (restore and store).
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Aug 18 06:17:06 raspberrypi alsactl[306]: alsactl 1.1.8 daemon started
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting lircd(8) initialization helper tool...
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Copy user wpa_supplicant.conf being skipped.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Aug 18 06:17:06 raspberrypi rng-tools[303]: Starting Hardware RNG entropy gatherer daemon: rngd.
+Aug 18 06:17:06 raspberrypi alsactl[306]: No state is present for card b1
+Aug 18 06:17:06 raspberrypi alsactl[306]: Found hardware: "bcm2835_hdmi" "Broadcom Mixer" "" "" ""
+Aug 18 06:17:06 raspberrypi alsactl[306]: Hardware is initialized using a generic method
+Aug 18 06:17:06 raspberrypi alsactl[306]: No state is present for card b1
+Aug 18 06:17:06 raspberrypi rngd[311]: rngd 2-unofficial-mt.14 starting up...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Aug 18 06:17:06 raspberrypi alsactl[308]: No state is present for card b1
+Aug 18 06:17:06 raspberrypi alsactl[308]: Found hardware: "bcm2835_hdmi" "Broadcom Mixer" "" "" ""
+Aug 18 06:17:06 raspberrypi alsactl[308]: Hardware is initialized using a generic method
+Aug 18 06:17:06 raspberrypi alsactl[308]: No state is present for card b1
+Aug 18 06:17:06 raspberrypi rngd[311]: entropy feed to the kernel ready
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting WPA supplicant...
+Aug 18 06:17:06 raspberrypi rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting dphys-swapfile - set up, mount/unmount, and delete a swap file...
+Aug 18 06:17:06 raspberrypi rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="301" x-info="https://www.rsyslog.com"] start
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Aug 18 06:17:06 raspberrypi cron[318]: (CRON) INFO (pidfile fd = 3)
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Aug 18 06:17:06 raspberrypi avahi-daemon[310]: Found user 'avahi' (UID 108) and group 'avahi' (GID 113).
+Aug 18 06:17:06 raspberrypi systemd[1]: Condition check resulted in Turn on SSH if /boot/ssh is present being skipped.
+Aug 18 06:17:06 raspberrypi thd[319]: Found socket passed from systemd
+Aug 18 06:17:06 raspberrypi avahi-daemon[310]: Successfully dropped root privileges.
+Aug 18 06:17:06 raspberrypi systemd[1]: Starting Login Service...
+Aug 18 06:17:06 raspberrypi avahi-daemon[310]: avahi-daemon 0.7 starting up.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started System Logging Service.
+Aug 18 06:17:06 raspberrypi cron[318]: (CRON) INFO (Running @reboot jobs)
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Deferred execution scheduler.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Check for Raspberry Pi EEPROM updates.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started rng-tools.service.
+Aug 18 06:17:06 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Aug 18 06:17:06 raspberrypi systemd[1]: Reached target Sound Card.
+Aug 18 06:17:06 raspberrypi dhcpcd[326]: dev: loaded udev
+Aug 18 06:17:06 raspberrypi kernel: [   11.751071] 8021q: 802.1Q VLAN Support v1.8
+Aug 18 06:17:06 raspberrypi dphys-swapfile[322]: want /var/swap=100MByte, checking existing: keeping it
+Aug 18 06:17:07 raspberrypi kernel: [   11.948298] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Aug 18 06:17:07 raspberrypi systemd[1]: Started Login Service.
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Successfully called chroot().
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Successfully dropped remaining capabilities.
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: No service file found in /etc/avahi/services.
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Network interface enumeration completed.
+Aug 18 06:17:07 raspberrypi wpa_supplicant[320]: Successfully initialized wpa_supplicant
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 3580683232.
+Aug 18 06:17:07 raspberrypi kernel: [   12.086298] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Aug 18 06:17:07 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Aug 18 06:17:07 raspberrypi kernel: [   12.130605] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+Aug 18 06:17:07 raspberrypi systemd[1]: Started WPA supplicant.
+Aug 18 06:17:07 raspberrypi systemd[1]: Started dphys-swapfile - set up, mount/unmount, and delete a swap file.
+Aug 18 06:17:07 raspberrypi raspi-config[317]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Aug 18 06:17:07 raspberrypi raspi-config[317]:  No. Switching to ondemand scaling governor.
+Aug 18 06:17:07 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Aug 18 06:17:07 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: waiting for carrier
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: carrier acquired
+Aug 18 06:17:07 raspberrypi kernel: [   12.321560] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: DUID 00:01:00:01:25:d8:32:1b:40:a5:ef:05:8f:53
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: IAID eb:7c:20:bc
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: adding address fe80::2675:a604:50fd:63e9
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::2675:a604:50fd:63e9.
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: New relevant interface eth0.IPv6 for mDNS.
+Aug 18 06:17:07 raspberrypi avahi-daemon[310]: Registering new address record for fe80::2675:a604:50fd:63e9 on eth0.*.
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: probing address 151.216.10.55/23
+Aug 18 06:17:07 raspberrypi lircd-setup[309]: /usr/sbin/lircd-setup:37: DeprecationWarning: The SafeConfigParser class has been renamed to ConfigParser in Python 3.2. This alias will be removed in future versions. Use ConfigParser directly instead.
+Aug 18 06:17:07 raspberrypi lircd-setup[309]:   parser = configparser.SafeConfigParser()
+Aug 18 06:17:07 raspberrypi systemd[1]: lircd-setup.service: Succeeded.
+Aug 18 06:17:07 raspberrypi systemd[1]: Started lircd(8) initialization helper tool.
+Aug 18 06:17:07 raspberrypi dhcpcd[326]: eth0: soliciting an IPv6 router
+Aug 18 06:17:09 raspberrypi kernel: [   14.031555] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC5E1
+Aug 18 06:17:11 raspberrypi dhcpcd[326]: eth0: using static address 151.216.10.55/23
+Aug 18 06:17:11 raspberrypi avahi-daemon[310]: Joining mDNS multicast group on interface eth0.IPv4 with address 151.216.10.55.
+Aug 18 06:17:11 raspberrypi avahi-daemon[310]: New relevant interface eth0.IPv4 for mDNS.
+Aug 18 06:17:11 raspberrypi avahi-daemon[310]: Registering new address record for 151.216.10.55 on eth0.IPv4.
+Aug 18 06:17:11 raspberrypi dhcpcd[326]: eth0: adding route to 151.216.10.0/23
+Aug 18 06:17:11 raspberrypi dhcpcd[326]: eth0: adding default route via 151.216.10.1
+Aug 18 06:17:11 raspberrypi dhcpcd[326]: forked to background, child pid 425
+Aug 18 06:17:11 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Aug 18 06:17:11 raspberrypi systemd[1]: Reached target Network.
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting OpenBSD Secure Shell server...
+Aug 18 06:17:11 raspberrypi systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Aug 18 06:17:11 raspberrypi systemd[1]: Started Unattended Upgrades Shutdown.
+Aug 18 06:17:11 raspberrypi systemd[1]: Reached target Network is Online.
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting Docker Application Container Engine...
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting LSB: exim Mail Transport Agent...
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting Permit User Sessions...
+Aug 18 06:17:11 raspberrypi systemd[1]: Starting Flexible IR remote input/output application support...
+Aug 18 06:17:11 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Aug 18 06:17:12 raspberrypi systemd[1]: Started Permit User Sessions.
+Aug 18 06:17:12 raspberrypi systemd[1]: Started Getty on tty1.
+Aug 18 06:17:12 raspberrypi systemd[1]: Reached target Login Prompts.
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: lircd:  Opening log, level: Info
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Version: lircd 0.10.1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: System info: Linux raspberrypi 5.4.51-v7+ #1333 SMP Mon Aug 10 16:45:19 BST 2020 armv7l GNU/Linux
+Aug 18 06:17:12 raspberrypi systemd[1]: Started OpenBSD Secure Shell server.
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: Initial device: auto
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: Initial device: auto
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: driver: devinput
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Info: lircd:  Opening log, level: Info
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: Using systemd fd
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Warning: Running as root
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: output: /var/run/lirc/lircd
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: nodaemon: 1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: plugindir: /usr/lib/arm-linux-gnueabihf/lirc/plugins
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: logfile: syslog
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: immediate-init: 0
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: permission: 666
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: driver-options: 
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: pidfile: /var/run/lirc/lircd.pid
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: listen: 0
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: connect: (null)
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: userelease: 0
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: effective_user: (null)
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: release_suffix: _EVUP
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: allow_simulate: 0
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: repeat_max: 600
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: configfile: /etc/lirc/lircd.conf
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Options: dynamic_codes: (null)
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Current driver: devinput
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Driver API version: 4
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Driver  version: 0.10.0
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Driver  info: See file:///usr/share/doc/lirc/plugindocs/devinput.html
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: lircd:  Opening log, level: Info
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: Using systemd fd
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Warning: Running as root
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Info: Using remote: devinput-64.
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: Using remote: devinput-64.
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_MISC
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_MOUSE
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_MISC
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_SOUTH
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TOOL_PEN
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TRIGGER
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TRIGGER_HAPPY1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_MOUSE
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_WHEEL
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Info: Using remote: devinput-32.
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_SOUTH
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TOOL_PEN
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TRIGGER
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_TRIGGER_HAPPY1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-64: Multiple values for same code: BTN_WHEEL
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Info: Using remote: devinput-32.
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_MISC
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_MOUSE
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_MISC
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_SOUTH
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TOOL_PEN
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TRIGGER
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TRIGGER_HAPPY1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_MOUSE
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_WHEEL
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_SOUTH
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TOOL_PEN
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TRIGGER
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_TRIGGER_HAPPY1
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: /etc/lirc/lircd.conf.d/devinput.lircd.conf: devinput-32: Multiple values for same code: BTN_WHEEL
+Aug 18 06:17:12 raspberrypi lircd[433]: lircd-0.10.1[433]: Notice: lircd(devinput) ready, using /var/run/lirc/lircd
+Aug 18 06:17:12 raspberrypi lircd-0.10.1[433]: Notice: lircd(devinput) ready, using /var/run/lirc/lircd
+Aug 18 06:17:12 raspberrypi systemd[1]: Started Flexible IR remote input/output application support.
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.087800932+01:00" level=info msg="libcontainerd: started new docker-containerd process" pid=689
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.105777702+01:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.107091348+01:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.121335932+01:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.122842442+01:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Aug 18 06:17:15 raspberrypi dockerd[428]: time="2020-08-18T06:17:15.124150827+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x50d8930, CONNECTING" module=grpc
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.164873900+01:00" level=info msg="starting containerd" revision=9754871865f7fe2f4e74d43e2fc7ccd237edcbce version=18.09.1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.169395098+01:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.171451817+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.173559212+01:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.173913119+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.199171556+01:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.aufs" error="modprobe aufs failed: \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.4.51-v7+\\n\": exit status 1"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.199641244+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.209305879+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.212065254+01:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.214118015+01:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.zfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.214523067+01:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.214921400+01:00" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.215220358+01:00" level=warning msg="could not use snapshotter aufs in metadata plugin" error="modprobe aufs failed: \"modprobe: FATAL: Module aufs not found in directory /lib/modules/5.4.51-v7+\\n\": exit status 1"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.215594942+01:00" level=warning msg="could not use snapshotter zfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.222907442+01:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.223323587+01:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.224988483+01:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.225423535+01:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.226299004+01:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.227111087+01:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.227837806+01:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.229497806+01:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.229873067+01:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.230625775+01:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.232940254+01:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.234391817+01:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.241697806+01:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.242221817+01:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.242836400+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.243188848+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.243480046+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.243818171+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.244193119+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.244599421+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.244889681+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.245179733+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.245485879+01:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.249082442+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.249514629+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.250545931+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.251130306+01:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.254766660+01:00" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.257066660+01:00" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.258498275+01:00" level=info msg="containerd successfully booted in 0.104917s"
+Aug 18 06:17:16 raspberrypi dockerd[428]: time="2020-08-18T06:17:16.262082962+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x50d8930, READY" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.626583379+01:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.626916087+01:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.628554681+01:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.629147181+01:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.629275201+01:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.629702649+01:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.629614212+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x509c320, CONNECTING" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.631583587+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x509c320, READY" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.632141504+01:00" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.632425201+01:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.632888118+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x509c5a0, CONNECTING" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.634744681+01:00" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0x509c5a0, READY" module=grpc
+Aug 18 06:17:17 raspberrypi dockerd[428]: time="2020-08-18T06:17:17.923682181+01:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.366339524+01:00" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.368589472+01:00" level=warning msg="Your kernel does not support cgroup memory limit"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.369241815+01:00" level=warning msg="Your kernel does not support cgroup cfs period"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.369561295+01:00" level=warning msg="Your kernel does not support cgroup cfs quotas"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.369795826+01:00" level=warning msg="Your kernel does not support cgroup rt period"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.370068222+01:00" level=warning msg="Your kernel does not support cgroup rt runtime"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.370424003+01:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.370701867+01:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.370960930+01:00" level=warning msg="Your kernel does not support cgroup blkio throttle.read_bps_device"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.371288170+01:00" level=warning msg="Your kernel does not support cgroup blkio throttle.write_bps_device"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.371552701+01:00" level=warning msg="Your kernel does not support cgroup blkio throttle.read_iops_device"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.371803274+01:00" level=warning msg="Your kernel does not support cgroup blkio throttle.write_iops_device"
+Aug 18 06:17:19 raspberrypi dockerd[428]: time="2020-08-18T06:17:19.377485930+01:00" level=info msg="Loading containers: start."
+Aug 18 06:17:21 raspberrypi dhcpcd[425]: eth0: no IPv6 Routers available
+Aug 18 06:17:21 raspberrypi kernel: [   26.124103] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Aug 18 06:17:21 raspberrypi kernel: [   26.129817] Bridge firewalling registered
+Aug 18 06:17:22 raspberrypi systemd-udevd[712]: Using default interface naming scheme 'v240'.
+Aug 18 06:17:23 raspberrypi avahi-daemon[310]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+Aug 18 06:17:23 raspberrypi avahi-daemon[310]: New relevant interface docker0.IPv4 for mDNS.
+Aug 18 06:17:23 raspberrypi avahi-daemon[310]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+Aug 18 06:17:23 raspberrypi dockerd[428]: time="2020-08-18T06:17:23.521179001+01:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Aug 18 06:17:24 raspberrypi dockerd[428]: time="2020-08-18T06:17:24.591831188+01:00" level=info msg="Loading containers: done."
+Aug 18 06:17:26 raspberrypi dockerd[428]: time="2020-08-18T06:17:26.470441344+01:00" level=info msg="Docker daemon" commit=4c52b90 graphdriver(s)=overlay2 version=18.09.1
+Aug 18 06:17:26 raspberrypi dockerd[428]: time="2020-08-18T06:17:26.473975146+01:00" level=info msg="Daemon has completed initialization"
+Aug 18 06:17:26 raspberrypi dockerd[428]: time="2020-08-18T06:17:26.602919104+01:00" level=info msg="API listen on /var/run/docker.sock"
+Aug 18 06:17:26 raspberrypi systemd[1]: Started Docker Application Container Engine.
+Aug 18 06:17:35 raspberrypi systemd[1]: systemd-fsckd.service: Succeeded.
+Aug 18 06:17:44 raspberrypi exim4[430]: Starting MTA: exim4.
+Aug 18 06:17:44 raspberrypi systemd[1]: Started LSB: exim Mail Transport Agent.
+Aug 18 06:18:30 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start timed out.
+Aug 18 06:18:30 raspberrypi systemd[1]: Timed out waiting for device /dev/serial1.
+Aug 18 06:18:30 raspberrypi systemd[1]: Dependency failed for Configure Bluetooth Modems connected by UART.
+Aug 18 06:18:30 raspberrypi systemd[1]: hciuart.service: Job hciuart.service/start failed with result 'dependency'.
+Aug 18 06:18:30 raspberrypi systemd[1]: dev-serial1.device: Job dev-serial1.device/start failed with result 'timeout'.
+Aug 18 06:18:30 raspberrypi systemd[1]: Reached target Multi-User System.
+Aug 18 06:18:30 raspberrypi systemd[1]: Reached target Graphical Interface.
+Aug 18 06:18:30 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Aug 18 06:18:31 raspberrypi systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Aug 18 06:18:31 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Aug 18 06:18:31 raspberrypi systemd[1]: Startup finished in 3.816s (kernel) + 1min 32.125s (userspace) = 1min 35.942s.

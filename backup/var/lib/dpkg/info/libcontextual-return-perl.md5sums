@@ -1,0 +1,7 @@
+4050d9545b1804d4060b7f3c34d1a8f6  usr/share/doc/libcontextual-return-perl/changelog.Debian.gz
+c5cc04e5455321e8d68f5564b6014eee  usr/share/doc/libcontextual-return-perl/changelog.gz
+7dd84aa286ae955f148ed18877b96a4d  usr/share/doc/libcontextual-return-perl/copyright
+fca061594d992d27ee2815efbbf6e84b  usr/share/man/man3/Contextual::Return.3pm.gz
+0761d3cb714be65eac15051ac34954d9  usr/share/man/man3/Contextual::Return::Failure.3pm.gz
+2bfc8782c95fd2fe9052d71cb4e70d5c  usr/share/perl5/Contextual/Return.pm
+06d19331ce9ca93fb7b828c46a37657f  usr/share/perl5/Contextual/Return/Failure.pm

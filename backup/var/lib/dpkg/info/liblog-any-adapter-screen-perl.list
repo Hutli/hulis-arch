@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblog-any-adapter-screen-perl
+/usr/share/doc/liblog-any-adapter-screen-perl/README.gz
+/usr/share/doc/liblog-any-adapter-screen-perl/changelog.Debian.gz
+/usr/share/doc/liblog-any-adapter-screen-perl/changelog.gz
+/usr/share/doc/liblog-any-adapter-screen-perl/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Log::Any::Adapter::Screen.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/Log
+/usr/share/perl5/Log/Any
+/usr/share/perl5/Log/Any/Adapter
+/usr/share/perl5/Log/Any/Adapter/Screen.pm

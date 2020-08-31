@@ -1,0 +1,15 @@
+cbb872ba3c297a746e968a9629a8289a  usr/share/doc/libxmlrpc-lite-perl/changelog.Debian.gz
+8fc891851368860f5845f7bd0c4c0d30  usr/share/doc/libxmlrpc-lite-perl/changelog.gz
+e0543b3971b185110c064d88567bb9a1  usr/share/doc/libxmlrpc-lite-perl/copyright
+42d3e57e674d7ad80e4c22ec47bc104c  usr/share/man/man3/Apache::XMLRPC::Lite.3pm.gz
+79f84c6976ecedb82caa6342ac82be6f  usr/share/man/man3/XMLRPC::Lite.3pm.gz
+890b979c9e3935b48b02a7cb156f70cb  usr/share/man/man3/XMLRPC::Test.3pm.gz
+ad45ad149a524eb57937b417aa433afb  usr/share/man/man3/XMLRPC::Transport::HTTP.3pm.gz
+2f548f51b536a27c40714c753cd6d796  usr/share/man/man3/XMLRPC::Transport::POP3.3pm.gz
+385ea13fac6ae25d54f4b041d9935716  usr/share/man/man3/XMLRPC::Transport::TCP.3pm.gz
+ac41d60d91857a0bc0ea64bca67d7d80  usr/share/perl5/Apache/XMLRPC/Lite.pm
+1d7dc3479c7e3854bcd0d93dd13bd835  usr/share/perl5/XMLRPC/Lite.pm
+df528385f7785ed2545a167872dff58f  usr/share/perl5/XMLRPC/Test.pm
+d23a09944046756654a6ac11c8c8a556  usr/share/perl5/XMLRPC/Transport/HTTP.pm
+84042ca7238bcfe27cdbed7bd56b6289  usr/share/perl5/XMLRPC/Transport/POP3.pm
+ec523a2728b6e81266ac7e5c178566d7  usr/share/perl5/XMLRPC/Transport/TCP.pm

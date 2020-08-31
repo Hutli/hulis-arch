@@ -1,0 +1,11 @@
+7dd638e71bec72c13b85290deceb7a0d  usr/lib/arm-linux-gnueabihf/perl5/5.28/Data/UUID.pm
+62c8816defaec4c8a3cd5cac03baa4e2  usr/lib/arm-linux-gnueabihf/perl5/5.28/Data/UUID.pod
+8780be04b32f20c0a507daae30f29a86  usr/lib/arm-linux-gnueabihf/perl5/5.28/OSSP/uuid.pm
+f766d828c7830797fdb8ab0b1c222189  usr/lib/arm-linux-gnueabihf/perl5/5.28/OSSP/uuid.pod
+ce81bd888982c037fada83e41fc15df6  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/OSSP/uuid/uuid.so
+69a632c330c70cf7bb1e21334645ca18  usr/share/doc/libossp-uuid-perl/changelog.Debian.armhf.gz
+4139efaede872ee3bf0283698e0fc6c4  usr/share/doc/libossp-uuid-perl/changelog.Debian.gz
+d3fe7f00add744f13db6781898acb674  usr/share/doc/libossp-uuid-perl/changelog.gz
+39640d542237fc7412cddcac700577e8  usr/share/doc/libossp-uuid-perl/copyright
+fd5db9329b16ce9f89782e4c7cb1c350  usr/share/man/man3/Data::UUID.3pm.gz
+c2ec8bd1b473c9e56755f97fb22e4ab9  usr/share/man/man3/OSSP::uuid.3pm.gz

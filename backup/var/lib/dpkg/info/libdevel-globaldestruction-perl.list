@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdevel-globaldestruction-perl
+/usr/share/doc/libdevel-globaldestruction-perl/changelog.Debian.gz
+/usr/share/doc/libdevel-globaldestruction-perl/changelog.gz
+/usr/share/doc/libdevel-globaldestruction-perl/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Devel::GlobalDestruction.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/Devel
+/usr/share/perl5/Devel/GlobalDestruction.pm

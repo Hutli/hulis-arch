@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libstruct-dumb-perl
+/usr/share/doc/libstruct-dumb-perl/changelog.Debian.gz
+/usr/share/doc/libstruct-dumb-perl/changelog.gz
+/usr/share/doc/libstruct-dumb-perl/copyright
+/usr/share/perl5
+/usr/share/perl5/Struct
+/usr/share/perl5/Struct/Dumb.pm
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Struct::Dumb.3pm.gz

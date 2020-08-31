@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: String-Escape
+Upstream-Contact: Matthew Simon Cavalletto <simonm@cavalletto.org>
+Source: https://metacpan.org/release/String-Escape
+
+Files: *
+Copyright: 2002, 2010, Matthew Simon Cavalletto <simonm@cavalletto.org>
+ 1996, 1997, 1998, 2001 Evolution Online Systems, Inc.
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2000-2002, Christopher C. Chimelis <chris@debian.org>
+ 2004, 2005, Gunnar Wolf <gwolf@debian.org>
+ 2004, Stephen Zander <gibreel@debian.org>
+ 2006-2010, gregor herrmann <gregoa@debian.org>
+ 2010, Jonathan Yu <jawnsy@cpan.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian GNU/Linux systems, the complete text of the Artistic License
+ can be found in `/usr/share/common-licenses/Artistic'
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL'

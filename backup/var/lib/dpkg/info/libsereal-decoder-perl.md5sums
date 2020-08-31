@@ -1,0 +1,10 @@
+d85bb77ce98acb25fd075e2fc113c9b2  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sereal/Decoder.pm
+62c3d5da4c0c58c56cd06aa4020d2b0f  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sereal/Decoder/Constants.pm
+aa26f93a2a410c390a642de35614438d  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sereal/Performance.pm
+7573ea81a8d5aac1a420fe858ace4751  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Sereal/Decoder/Decoder.so
+6132319df9c6ec6a3787134797d77a6b  usr/share/doc/libsereal-decoder-perl/changelog.Debian.armhf.gz
+0d68ae171524cadf645c1c6998a78fe0  usr/share/doc/libsereal-decoder-perl/changelog.Debian.gz
+77d5c5dba0c069a21672ef82fed3a77c  usr/share/doc/libsereal-decoder-perl/changelog.gz
+94d4a7d6e22a35041d86d6162beb596f  usr/share/doc/libsereal-decoder-perl/copyright
+053b2004f5a1f6c4268ef43d69e3fbff  usr/share/man/man3/Sereal::Decoder.3pm.gz
+68dd3dcdf97dd6ebff160bf8282275c6  usr/share/man/man3/Sereal::Performance.3pm.gz

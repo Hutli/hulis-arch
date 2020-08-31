@@ -1,0 +1,7 @@
+0cde25e16b2f89e54c55168b4904e688  usr/share/doc/libsub-quote-perl/changelog.Debian.gz
+59cff9218b875d86ea979d831e034faf  usr/share/doc/libsub-quote-perl/changelog.gz
+f99bb5daf7920ad3d05d6f1f9b2594a1  usr/share/doc/libsub-quote-perl/copyright
+6e39c97fbcc2eea4ba56cc1446197565  usr/share/man/man3/Sub::Defer.3pm.gz
+edee2e8dc2e2b2ea49afb9cc0e46b820  usr/share/man/man3/Sub::Quote.3pm.gz
+c8facd75e861dd57ddfed9ee1d01aeb1  usr/share/perl5/Sub/Defer.pm
+3063b3c306fde689a0f76b676e92afcb  usr/share/perl5/Sub/Quote.pm

@@ -1,0 +1,15 @@
+bfbe40d32d487f755056f324d85499a5  usr/share/doc/libgit-wrapper-perl/changelog.Debian.gz
+a2a075f0b6ac1d8097dc69b8cd3b8aa6  usr/share/doc/libgit-wrapper-perl/changelog.gz
+8e56b528a8cb9f45c1a229bed028d313  usr/share/doc/libgit-wrapper-perl/copyright
+c1a2c5577b2c7fd3ab66ff4c3116ba07  usr/share/man/man3/Git::Wrapper.3pm.gz
+430316d680bb1ab149f06af5d5258168  usr/share/man/man3/Git::Wrapper::Exception.3pm.gz
+a02da7ee27e69903394d459b7e3c44f9  usr/share/man/man3/Git::Wrapper::File::RawModification.3pm.gz
+4c256fdb2ed68d9454021113d04b8ffd  usr/share/man/man3/Git::Wrapper::Log.3pm.gz
+ece05a17c7fa08f9f49bf0d2ca3a831d  usr/share/man/man3/Git::Wrapper::Status.3pm.gz
+b60eea4d0b69606294d1641854ad219d  usr/share/man/man3/Git::Wrapper::Statuses.3pm.gz
+0324337a58507eb3c2613cd6e65dc86a  usr/share/perl5/Git/Wrapper.pm
+2c97ec4bc1e35741584cd0fc33411596  usr/share/perl5/Git/Wrapper/Exception.pm
+d2950aeef6dd7b2e22f0072bbfba5e7a  usr/share/perl5/Git/Wrapper/File/RawModification.pm
+177f5f86468569c91f0d5976ae4f6440  usr/share/perl5/Git/Wrapper/Log.pm
+0117c98eaa2363b739398829d88160ca  usr/share/perl5/Git/Wrapper/Status.pm
+c14f1e124fd315246c2f46a16e00529b  usr/share/perl5/Git/Wrapper/Statuses.pm

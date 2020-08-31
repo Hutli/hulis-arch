@@ -1,0 +1,8 @@
+a684fb75911da91da2a3433ae89d0638  usr/lib/arm-linux-gnueabihf/perl5/5.28/Want.pm
+68e48264e642ebd7abec137238f85ad5  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Want/Want.so
+ff3ee4d2a0b926b45c932abf097edfde  usr/share/doc/libwant-perl/TODO
+87c7370f2778ebc165912917832189f0  usr/share/doc/libwant-perl/changelog.Debian.armhf.gz
+003da93d8ac5707b630a6f6dd270156c  usr/share/doc/libwant-perl/changelog.Debian.gz
+dbff1c8d82f3f315d9ea0c0a8bc8fe99  usr/share/doc/libwant-perl/changelog.gz
+7b3533adf89b0e14cfef8817ef1de319  usr/share/doc/libwant-perl/copyright
+25954a13cf430da8a051665a0c589550  usr/share/man/man3/Want.3pm.gz

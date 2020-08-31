@@ -1,0 +1,58 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Federico Lucifredi
+Upstream-Contact: flucifredi@acm.org
+Source: http://primates.ximian.com/~flucifredi/man/
+Comment:
+ This version of Debian man2html was taken from man-1.6 package found on
+ the above url, former versions were based on the vh-man2html-1.5.tar.gz
+ and man-1.5*.tar.gz from ftp://ftp.win.tue.nl/pub/linux-local/utils/man/
+
+Files: *
+Copyright: 1990-1991, John W. Eaton,
+           Richard Verhoeven (rcb5@win.tue.nl),
+           Michael Hamilton (michael@actrix.gen.nz),
+           1994-2007, Andries E. Brouwer (aeb@cwi.nl),
+           Federico Lucifredi (flucifredi@acm.org)
+License: GPL-2+
+
+Files: misc/*
+Copyright: 1999, David A. Wheeler (dwheeler@ida.org)
+License: GPL-2+
+
+Files: src/glob.c
+Copyright: 1985, 1988-1991, Free Software Foundation, Inc.
+License: GPL-1+
+
+Files: src/makewhatis.sh
+Copyright: 1992-1994, Rickard E. Faith (faith@cs.unc.edu)
+License: GPL-2+
+
+Files: src/man2dvi
+Copyright: 1997, Tobias Begalke (tb@lst.de)
+License: GPL-2+
+
+Files: debian/*
+Copyright: 1996-1997, Christoph Lameter (clameter@debian.org),
+           1997-2000, Nicolás Lichtmaier (nick@feedback.net.ar),
+           2001, Philippe Troin (phil@fifi.org),
+           2002, Michael Piefel (piefel@debian.org),
+           2003-2018, Robert Luberda (robert@debian.org)
+License: GPL-2+
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 1, February 1989, or (at
+ your option) any later version
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.

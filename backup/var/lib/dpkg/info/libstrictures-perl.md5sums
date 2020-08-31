@@ -1,0 +1,8 @@
+a5e901c40095debad4ce76158978133e  usr/share/doc/libstrictures-perl/NEWS.Debian.gz
+a485a4708762aeb677f124a697b226ed  usr/share/doc/libstrictures-perl/changelog.Debian.gz
+b8306857c8fdf0346cc8eae41361f05f  usr/share/doc/libstrictures-perl/changelog.gz
+43b65c710f07ff9440df8dbb203d6dd5  usr/share/doc/libstrictures-perl/copyright
+82657c6e97ac5ae639de27a0d4f787bd  usr/share/man/man3/strictures.3pm.gz
+83eff9d11910e8aaf443baa80cec1c06  usr/share/man/man3/strictures::extra.3pm.gz
+2d535853e820c461539ed19f92fecbcb  usr/share/perl5/strictures.pm
+2a80d32b958bcfa79f2c14352f5bf8e7  usr/share/perl5/strictures/extra.pm

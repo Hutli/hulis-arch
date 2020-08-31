@@ -1,0 +1,9 @@
+ebfd8d7546e8e07a42a072ccc465a558  usr/lib/arm-linux-gnueabihf/perl5/5.28/B/Hooks/OP/Check.pm
+218cec31db29cbb1ea50273bef25af30  usr/lib/arm-linux-gnueabihf/perl5/5.28/B/Hooks/OP/Check/Install/Files.pm
+c8904848a16ee448ea244fccfc70371d  usr/lib/arm-linux-gnueabihf/perl5/5.28/B/Hooks/OP/Check/Install/hook_op_check.h
+cf382ca79906c3f40487b0ab8f5cfd48  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/B/Hooks/OP/Check/Check.so
+49b219a86a975d94022aa4b4cfe26edb  usr/share/doc/libb-hooks-op-check-perl/changelog.Debian.armhf.gz
+f20e1492b1850203a61d24152928c8b6  usr/share/doc/libb-hooks-op-check-perl/changelog.Debian.gz
+b65ccfbfd33933e479e8a0e3f3b3558b  usr/share/doc/libb-hooks-op-check-perl/changelog.gz
+2686e34292d746533a4f2da348c87d49  usr/share/doc/libb-hooks-op-check-perl/copyright
+cb67a5b3b25e88dbfa9b66898825479d  usr/share/man/man3/B::Hooks::OP::Check.3pm.gz

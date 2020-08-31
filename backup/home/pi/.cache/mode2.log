@@ -1,0 +1,8 @@
+Jul 31 13:12:33.924693 raspberrypi mode2: Warning: ------------------------ Log re-opened ----------------------------
+Jul 31 13:12:33.925222 raspberrypi mode2: Debug: mode2:  Opening log, level: Debug
+Jul 31 13:12:33.925417 raspberrypi mode2: Info: Opening device: /dev/lirc0
+Jul 31 13:12:33.925531 raspberrypi mode2: Info: Initial device: /dev/lirc0
+Jul 31 13:12:33.925682 raspberrypi mode2: Warning: Cannot access device: /dev/lirc0
+Jul 31 13:12:33.925980 raspberrypi mode2: Info: Cannot configure the rc device for /dev/lirc0
+Jul 31 13:12:33.926354 raspberrypi mode2: Error: could not get file information for /dev/lirc0
+Jul 31 13:12:33.926472 raspberrypi mode2: Error: default_init(): No such file or directory

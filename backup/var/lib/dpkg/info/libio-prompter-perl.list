@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libio-prompter-perl
+/usr/share/doc/libio-prompter-perl/NEWS.Debian.gz
+/usr/share/doc/libio-prompter-perl/changelog.Debian.gz
+/usr/share/doc/libio-prompter-perl/changelog.gz
+/usr/share/doc/libio-prompter-perl/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/IO::Prompter.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/IO
+/usr/share/perl5/IO/Prompter.pm

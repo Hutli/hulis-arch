@@ -1,0 +1,6 @@
+1cd5eb5b3f2d6c4b7b9100ece70d1b6c  usr/lib/arm-linux-gnueabihf/libavformat.so.58.20.100
+ab57ce9983718cee467f7fe1e16861a6  usr/lib/arm-linux-gnueabihf/neon/vfp/libavformat.so.58.20.100
+89ed18de340f4b3e3fd9528327705086  usr/share/doc/libavformat58/changelog.Debian.gz
+213d1f99dbea9d93b3d337309a0b52bd  usr/share/doc/libavformat58/changelog.gz
+61af5f05179be74293344b58d088a393  usr/share/doc/libavformat58/copyright
+08eb19fe64a6feb5ff563df6016badef  usr/share/lintian/overrides/libavformat58

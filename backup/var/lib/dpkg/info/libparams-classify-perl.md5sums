@@ -1,0 +1,8 @@
+9005682424231dbc853d5b7b6c28302a  usr/lib/arm-linux-gnueabihf/perl5/5.28/Params/Classify.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Params/Classify/Classify.bs
+1a67b46c3a3247f48abdf44b55fec921  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Params/Classify/Classify.so
+29a2c7ba4d3f46bcac048ef2e881e94f  usr/share/doc/libparams-classify-perl/changelog.Debian.armhf.gz
+460e05810eaa8241294e804f0a62d9e7  usr/share/doc/libparams-classify-perl/changelog.Debian.gz
+54ee29e17eba7211dcb97f191111eba9  usr/share/doc/libparams-classify-perl/changelog.gz
+f5ff8ff7a28165bb2c222ee49251ad8d  usr/share/doc/libparams-classify-perl/copyright
+f514e783494bb4d0ec953bb1d8ae4b3b  usr/share/man/man3/Params::Classify.3pm.gz

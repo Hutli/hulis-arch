@@ -1,0 +1,17 @@
+8264c4af6d280027bc1315a2adcf33a8  usr/share/doc/libfuture-perl/NEWS.Debian.gz
+f28513fc501c4a1c21cf83d00f1c6b64  usr/share/doc/libfuture-perl/changelog.Debian.gz
+fd45f34223b1ab4b2e818f6f721e2ee7  usr/share/doc/libfuture-perl/changelog.gz
+142dbbdec32a08096f854c453799dcb3  usr/share/doc/libfuture-perl/copyright
+873d1c99b7f0f88db47d39e3d1623c97  usr/share/doc/libfuture-perl/examples/io-async.pl
+d9d00e86ff53b44cd10c47daf341a20c  usr/share/man/man3/Future.3pm.gz
+b6ee52782ac39a31d11c4827f3aaced7  usr/share/man/man3/Future::Mutex.3pm.gz
+0acab085243282261d4f178562e32f15  usr/share/man/man3/Future::Phrasebook.3pm.gz
+09eeea9d11635fbe368d6ad42ceb155f  usr/share/man/man3/Future::Utils.3pm.gz
+df6b98266c95cf22208802e9b72e78cd  usr/share/man/man3/Test::Future.3pm.gz
+06d026ee168a1b345977c7643c1296ce  usr/share/man/man3/Test::Future::Deferred.3pm.gz
+cc83a331bbd585f869ed7be8b754d2b5  usr/share/perl5/Future.pm
+298b19b007e63bb44e693a1ceb26fe98  usr/share/perl5/Future/Mutex.pm
+6edfae7a6b92b0378b2d9e988769ebb6  usr/share/perl5/Future/Phrasebook.pod
+657ac37a89be6ca0b625bd74f83ce66f  usr/share/perl5/Future/Utils.pm
+c26ac2fd9bbc9f62898849e5b1a240a5  usr/share/perl5/Test/Future.pm
+a0392e869b3f7e99d2074ae487a4bf07  usr/share/perl5/Test/Future/Deferred.pm

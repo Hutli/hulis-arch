@@ -1,0 +1,8 @@
+b018cdace7fda2e9aff8ce8e9796eb18  usr/bin/licensecheck
+b5125686a650e41606f35e4b26d8a409  usr/share/bash-completion/completions/licensecheck
+4a6035293c9c143ef932629fb3fed00a  usr/share/doc/licensecheck/changelog.Debian.gz
+3e9fa8f23b7d3d3c85b97412a24bbd17  usr/share/doc/licensecheck/changelog.gz
+6cee79be239eb5df3cd71f9a6d1954b5  usr/share/doc/licensecheck/copyright
+d2295d6b4162a771a34a39e6f6f3cd33  usr/share/licensecheck/App/Licensecheck.pm
+c94f8017f90b4b81d3e3d02669c948dd  usr/share/man/man1/licensecheck.1p.gz
+bbb98750ac1edd1577ce4adfcf76c807  usr/share/man/man3/App::Licensecheck.3pm.gz

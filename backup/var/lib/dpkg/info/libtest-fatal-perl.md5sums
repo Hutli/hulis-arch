@@ -1,0 +1,7 @@
+2064f1c991475447dd7c5f1496a2d95d  usr/share/doc/libtest-fatal-perl/changelog.Debian.gz
+8dbb310b1316897c462f57912f784fc6  usr/share/doc/libtest-fatal-perl/changelog.gz
+34fa2f248384b41e6b113e7955b110d8  usr/share/doc/libtest-fatal-perl/copyright
+c82cf48a3551dde5be8148824c75358b  usr/share/doc/libtest-fatal-perl/examples/convert-to-test-fatal
+8dff9958eb7f3bfd8cb81d903b1f4467  usr/share/doc/libtest-fatal-perl/examples/exception_like.t
+db4dca1200b70613f20cab0dccd00e6c  usr/share/man/man3/Test::Fatal.3pm.gz
+d098c2028e4c4e63edc8aaeac4f91aa5  usr/share/perl5/Test/Fatal.pm
