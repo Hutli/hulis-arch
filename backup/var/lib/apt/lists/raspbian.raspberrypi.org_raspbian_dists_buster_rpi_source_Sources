@@ -1,0 +1,52 @@
+Package: gst-omx1.0
+Format: 3.0 (quilt)
+Binary: gstreamer1.0-omx, gstreamer1.0-omx-dbg
+Architecture: any
+Version: 1.0.0.1-0+rpi12+jessiepmg
+Maintainer: Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>
+Homepage: http://gstreamer.freedesktop.org/
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9), dh-autoreconf, libgstreamer-plugins-base1.0-dev (>= 1.1.2), libgstreamer-plugins-bad1.0-dev (>= 1.1.2), libdrm-dev, libx11-dev, libraspberrypi-dev
+Package-List:
+ gstreamer1.0-omx deb rpi/libs optional arch=any
+ gstreamer1.0-omx-dbg deb rpi/debug extra arch=any
+Priority: optional
+Section: rpi/libs
+Directory: pool/rpi/g/gst-omx1.0
+Files: 
+ 4d02fe4e024c1eb1c36a456153e1f076 1176 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.dsc
+ af71e296f75612aad8c52766346d84c8 444500 gst-omx1.0_1.0.0.1.orig.tar.xz
+ 8d8b16b93f7c47a749cbacd885406d0c 20704 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.debian.tar.xz
+Checksums-Sha1: 
+ 0e2629d35b5e6ce2c865d9f7916032a41189e45a 1176 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.dsc
+ 5f42f5a9a9705f8071d29b625b41f2c10be679a4 444500 gst-omx1.0_1.0.0.1.orig.tar.xz
+ b132a5e3e1230ebe009364cfc2b41eb39c204a27 20704 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.debian.tar.xz
+Checksums-Sha256: 
+ f97efa467405a1d5f27040ddd413e7b05a8b269b6c242f58d5281a93ea235354 1176 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.dsc
+ f06c3e6bd9568546f89d77a00f86ce2fab4e1291b931f625410f1d2e235047e6 444500 gst-omx1.0_1.0.0.1.orig.tar.xz
+ 97830c531c92bc89212dddfdb44a384232d50b33f0a3968a5eca31113821279d 20704 gst-omx1.0_1.0.0.1-0+rpi12+jessiepmg.debian.tar.xz
+
+Package: ssh-regen-startup
+Format: 3.0 (native)
+Binary: ssh-regen-startup
+Architecture: all
+Version: 0.1
+Maintainer: root <root@raspbian.org>
+Homepage: <insert the upstream URL, if relevant>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 8.0.0)
+Package-List: 
+ ssh-regen-startup deb rpi/unknown extra
+Priority: extra
+Section: rpi/unknown
+Directory: pool/rpi/s/ssh-regen-startup
+Files: 
+ d8937787be43ee44f712d834c70a9cfd 595 ssh-regen-startup_0.1.dsc
+ 767e13f3d6a10b555343d600a1f006b8 3348 ssh-regen-startup_0.1.tar.gz
+Checksums-Sha1: 
+ d08b8d71f7f3c55ed7d6f897f6df3a28ef335288 595 ssh-regen-startup_0.1.dsc
+ ea59db8fb402b5d9514c58f0b388fc2de0a84468 3348 ssh-regen-startup_0.1.tar.gz
+Checksums-Sha256: 
+ 62979fea51462acc0c6e02bb7d8307870f2549de411f57e92b1a78f29c1209a9 595 ssh-regen-startup_0.1.dsc
+ a04d2e644e736d99e38cbc8448fb656f9f1e7483682560cd63677c449f43e7da 3348 ssh-regen-startup_0.1.tar.gz
+

@@ -1,0 +1,11 @@
+0b7adfcc61192a80f97463e89d6d1696  usr/lib/arm-linux-gnueabihf/perl5/5.28/Class/XSAccessor.pm
+1e4df942cb54bbfbac944b4aef21d0c0  usr/lib/arm-linux-gnueabihf/perl5/5.28/Class/XSAccessor/Array.pm
+db9379a668d6133fce801e4648cdef45  usr/lib/arm-linux-gnueabihf/perl5/5.28/Class/XSAccessor/Heavy.pm
+50d5839644b3aef2cf5a3e5b7c5af0eb  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Class/XSAccessor/XSAccessor.so
+11ed17f8e21abf27a70d9d84d2f15774  usr/share/doc/libclass-xsaccessor-perl/changelog.Debian.armhf.gz
+97644d590fa98f0c2910eb344b8195d5  usr/share/doc/libclass-xsaccessor-perl/changelog.Debian.gz
+84c318bf4518f7b50496468e352d2713  usr/share/doc/libclass-xsaccessor-perl/changelog.gz
+2fd1d243289a231e9d293116968561db  usr/share/doc/libclass-xsaccessor-perl/copyright
+697f56503561cbebe7aeef4d8ae4f087  usr/share/man/man3/Class::XSAccessor.3pm.gz
+f5d3287bb1409e39c4d5bc58e2f5dba2  usr/share/man/man3/Class::XSAccessor::Array.3pm.gz
+f92688872875469a89848274ec1c55d3  usr/share/man/man3/Class::XSAccessor::Heavy.3pm.gz

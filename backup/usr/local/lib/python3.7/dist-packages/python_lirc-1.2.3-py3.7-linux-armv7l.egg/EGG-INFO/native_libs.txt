@@ -1,0 +1,1 @@
+lirc.cpython-37m-arm-linux-gnueabihf.so

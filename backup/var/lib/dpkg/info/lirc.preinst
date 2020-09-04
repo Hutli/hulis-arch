@@ -1,0 +1,46 @@
+#!/bin/sh
+set -e
+
+md5sums_shipped="
+92df549c82f58ea28b605e5045984e04  /etc/lirc/irexec.lircrc
+d2664e84bab19f7f36628d1de3f273dd  /etc/lirc/lirc_options.conf #stretch
+6599e8ea08b5f4bf19409666cae22441  /etc/lirc/lirc_options.conf #buster
+810233d6f1bb15b64468beb95e4c670e  /etc/lirc/lircd.conf
+eca53bdc53bd5edc63cf06a4cff16b0d  /etc/lirc/lircmd.conf
+"
+
+if dpkg --compare-versions "$2" lt-nl "0.10.1-6.2~"
+then
+	# * configuration files unknown to dpkg and identical to a known
+	#   shipped version can be deleted to avoid prompting when replacing
+	#   them with proper conffiles
+	# * we must not remove conffiles still known to dpkg as "(obsolete)",
+	#   otherwise dpkg will remember their deletion
+	conffiles="$(dpkg-query -f '${Conffiles}' -W lirc)"
+	for conffile in /etc/lirc/lircd.conf /etc/lirc/lircmd.conf /etc/lirc/irexec.lircrc /etc/lirc/lirc_options.conf
+	do
+		test -f "$conffile" || continue
+		if [ -n "$(echo "$conffiles" | grep " $conffile ")" ]
+		then
+			echo "Keeping conffile $conffile which is known to dpkg."
+			continue
+		fi
+		case "$md5sums_shipped" in
+			*"$(md5sum "$conffile")"*)
+				echo "Removing unmodified configuration file $conffile which is unknown to dpkg."
+				rm "$conffile"
+				;;
+			*)
+				echo "Keeping modified configuration file $conffile which is unknown to dpkg."
+				;;
+		esac
+	done
+fi
+
+# Automatically added by dh_installdeb/12.1.1
+dpkg-maintscript-helper rm_conffile /etc/lirc/lircd.conf.dist 0.10.1-6.2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/lirc/lircmd.conf.dist 0.10.1-6.2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/lirc/irexec.lircrc.dist 0.10.1-6.2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/lirc/lirc_options.conf.dist 0.10.1-6.2\~ -- "$@"
+# End automatically added section
+

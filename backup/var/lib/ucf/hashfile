@@ -1,0 +1,7 @@
+6e4c2dde6c6970f124de9493e2c286fa  /etc/idmapd.conf
+ddcb1fbb90a14ff9850f22eed0127a10  /etc/default/nfs-common
+55570f990ec9c3b8d19c19ab4d0b8eb8  /etc/ssh/sshd_config
+76992d926cdc020e0c3e6602c10efc96  /etc/apt/listchanges.conf
+54a40de6aa6498df3e6baf837922617a  /etc/perl/XML/SAX/ParserDetails.ini
+1c261d6541420797f8b824d65ac5c197  /etc/apt/apt.conf.d/20auto-upgrades
+16a42c3bbce2144e6d19788a670de8b0  /etc/apt/apt.conf.d/50unattended-upgrades

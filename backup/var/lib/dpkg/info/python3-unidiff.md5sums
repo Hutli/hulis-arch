@@ -1,0 +1,11 @@
+fcd06299098a5417de29702e08aa1d19  usr/bin/python3-unidiff
+c8c1cc16483db8db1c2d7e8d7b0147e9  usr/lib/python3/dist-packages/unidiff-0.5.4.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/unidiff-0.5.4.egg-info/dependency_links.txt
+ca4a095f8e4a123b464043753ba0a2ec  usr/lib/python3/dist-packages/unidiff-0.5.4.egg-info/top_level.txt
+89e3e3628a26be1babfd9eb76a4e7c7b  usr/lib/python3/dist-packages/unidiff/__init__.py
+37925c95b8d7fb24227767d54b27ee3d  usr/lib/python3/dist-packages/unidiff/constants.py
+1e04a96fce6b7380d7a12f01b00746b4  usr/lib/python3/dist-packages/unidiff/errors.py
+9a4673425a05323cee5545030e32eca7  usr/lib/python3/dist-packages/unidiff/patch.py
+8e56ae6c7f71189a6fbd6b2c76285210  usr/share/doc/python3-unidiff/changelog.Debian.gz
+dff287fec54c329667dc884404eb381e  usr/share/doc/python3-unidiff/changelog.gz
+7262226a35f1762143509ba2c32e5623  usr/share/doc/python3-unidiff/copyright

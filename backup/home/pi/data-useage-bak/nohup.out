@@ -1,0 +1,12 @@
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:849: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:849: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Down:   20.69 GB
+Up:    767.93 MB
+Down:   20.69 GB
+Up:    767.94 MB
+Traceback (most recent call last):
+  File "./data-useage.py", line 50, in <module>
+    time.sleep(5)
+KeyboardInterrupt

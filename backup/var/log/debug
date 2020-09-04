@@ -1,0 +1,180 @@
+Aug 16 02:53:30 raspberrypi PackageKit: daemon start
+Aug 16 02:58:35 raspberrypi PackageKit: daemon quit
+Aug 16 09:07:16 raspberrypi PackageKit: daemon start
+Aug 16 09:12:22 raspberrypi PackageKit: daemon quit
+Aug 16 09:33:03 raspberrypi PackageKit: daemon start
+Aug 16 09:42:43 raspberrypi PackageKit: daemon quit
+Aug 16 09:49:39 raspberrypi PackageKit: daemon start
+Aug 16 09:54:45 raspberrypi PackageKit: daemon quit
+Aug 16 09:56:55 raspberrypi PackageKit: daemon start
+Aug 16 10:02:01 raspberrypi PackageKit: daemon quit
+Aug 16 10:11:51 raspberrypi PackageKit: daemon start
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 10:12:41 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 10:12:41 raspberrypi kernel: [    2.455428] dwc_otg: Microframe scheduler enabled
+Aug 16 10:12:41 raspberrypi kernel: [    2.499810] dwc_otg: FIQ enabled
+Aug 16 10:12:41 raspberrypi kernel: [    2.499824] dwc_otg: NAK holdoff enabled
+Aug 16 10:12:41 raspberrypi kernel: [    2.499835] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 10:12:41 raspberrypi kernel: [    2.499871] Module dwc_common_port init
+Aug 16 10:12:41 raspberrypi thd[312]: Found socket passed from systemd
+Aug 16 10:39:53 raspberrypi PackageKit: daemon start
+Aug 16 10:44:58 raspberrypi PackageKit: daemon quit
+Aug 16 10:58:54 raspberrypi PackageKit: daemon start
+Aug 16 11:04:00 raspberrypi PackageKit: daemon quit
+Aug 16 11:18:52 raspberrypi PackageKit: daemon start
+Aug 16 11:23:58 raspberrypi PackageKit: daemon quit
+Aug 16 13:41:07 raspberrypi PackageKit: daemon start
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 13:42:43 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 13:42:43 raspberrypi kernel: [    2.455274] dwc_otg: Microframe scheduler enabled
+Aug 16 13:42:43 raspberrypi kernel: [    2.499655] dwc_otg: FIQ enabled
+Aug 16 13:42:43 raspberrypi kernel: [    2.499670] dwc_otg: NAK holdoff enabled
+Aug 16 13:42:43 raspberrypi kernel: [    2.499680] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 13:42:43 raspberrypi kernel: [    2.499699] Module dwc_common_port init
+Aug 16 13:42:43 raspberrypi thd[308]: Found socket passed from systemd
+Aug 16 13:43:53 raspberrypi PackageKit: daemon start
+Aug 16 13:48:59 raspberrypi PackageKit: daemon quit
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 16:00:03 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 16:00:03 raspberrypi kernel: [    2.453913] dwc_otg: Microframe scheduler enabled
+Aug 16 16:00:03 raspberrypi kernel: [    2.498228] dwc_otg: FIQ enabled
+Aug 16 16:00:03 raspberrypi kernel: [    2.498241] dwc_otg: NAK holdoff enabled
+Aug 16 16:00:03 raspberrypi kernel: [    2.498251] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 16:00:03 raspberrypi kernel: [    2.498270] Module dwc_common_port init
+Aug 16 16:00:03 raspberrypi thd[318]: Found socket passed from systemd
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 16:05:52 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 16:05:52 raspberrypi kernel: [    2.455599] dwc_otg: Microframe scheduler enabled
+Aug 16 16:05:52 raspberrypi kernel: [    2.499955] dwc_otg: FIQ enabled
+Aug 16 16:05:52 raspberrypi kernel: [    2.499970] dwc_otg: NAK holdoff enabled
+Aug 16 16:05:52 raspberrypi kernel: [    2.499982] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 16:05:52 raspberrypi kernel: [    2.500000] Module dwc_common_port init
+Aug 16 16:05:52 raspberrypi thd[320]: Found socket passed from systemd
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 16:10:13 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 16:10:13 raspberrypi thd[301]: Found socket passed from systemd
+Aug 16 16:10:13 raspberrypi kernel: [    2.455839] dwc_otg: Microframe scheduler enabled
+Aug 16 16:10:13 raspberrypi kernel: [    2.500224] dwc_otg: FIQ enabled
+Aug 16 16:10:13 raspberrypi kernel: [    2.500238] dwc_otg: NAK holdoff enabled
+Aug 16 16:10:13 raspberrypi kernel: [    2.500249] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 16:10:13 raspberrypi kernel: [    2.500267] Module dwc_common_port init
+Aug 16 16:37:39 raspberrypi PackageKit: daemon start
+Aug 16 16:42:45 raspberrypi PackageKit: daemon quit
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 16 17:41:40 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 16 17:41:40 raspberrypi kernel: [    2.455528] dwc_otg: Microframe scheduler enabled
+Aug 16 17:41:40 raspberrypi kernel: [    2.499882] dwc_otg: FIQ enabled
+Aug 16 17:41:40 raspberrypi kernel: [    2.499896] dwc_otg: NAK holdoff enabled
+Aug 16 17:41:40 raspberrypi kernel: [    2.499907] dwc_otg: FIQ split-transaction FSM enabled
+Aug 16 17:41:40 raspberrypi kernel: [    2.499926] Module dwc_common_port init
+Aug 16 17:41:40 raspberrypi thd[318]: Found socket passed from systemd
+Aug 17 09:11:07 raspberrypi PackageKit: daemon start
+Aug 17 09:16:12 raspberrypi PackageKit: daemon quit
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 15:17:06 raspberrypi thd[299]: Found socket passed from systemd
+Aug 17 15:17:06 raspberrypi kernel: [    2.455176] dwc_otg: Microframe scheduler enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499565] dwc_otg: FIQ enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499579] dwc_otg: NAK holdoff enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499590] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499627] Module dwc_common_port init
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 15:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 15:17:06 raspberrypi thd[317]: Found socket passed from systemd
+Aug 17 15:17:06 raspberrypi kernel: [    2.455311] dwc_otg: Microframe scheduler enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499749] dwc_otg: FIQ enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499763] dwc_otg: NAK holdoff enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499774] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 15:17:06 raspberrypi kernel: [    2.499810] Module dwc_common_port init
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 21:17:06 raspberrypi kernel: [    2.455023] dwc_otg: Microframe scheduler enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.499332] dwc_otg: FIQ enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.499347] dwc_otg: NAK holdoff enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.499358] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.499396] Module dwc_common_port init
+Aug 17 21:17:06 raspberrypi thd[316]: Found socket passed from systemd
+Aug 17 21:17:06 raspberrypi thd[301]: Found socket passed from systemd
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 21:17:06 raspberrypi kernel: [    2.476724] dwc_otg: Microframe scheduler enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532378] dwc_otg: FIQ enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532393] dwc_otg: NAK holdoff enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532404] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532423] Module dwc_common_port init
+Aug 17 21:17:06 raspberrypi thd[336]: Found socket passed from systemd
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 21:17:06 raspberrypi kernel: [    2.476745] dwc_otg: Microframe scheduler enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532351] dwc_otg: FIQ enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532365] dwc_otg: NAK holdoff enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532376] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532395] Module dwc_common_port init
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 17 21:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 17 21:17:06 raspberrypi kernel: [    2.476866] dwc_otg: Microframe scheduler enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532500] dwc_otg: FIQ enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532514] dwc_otg: NAK holdoff enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532525] dwc_otg: FIQ split-transaction FSM enabled
+Aug 17 21:17:06 raspberrypi kernel: [    2.532544] Module dwc_common_port init
+Aug 17 21:17:06 raspberrypi thd[314]: Found socket passed from systemd
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: s49856 r8192 d23872 u81920 alloc=20*4096
+Aug 18 06:17:06 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Aug 18 06:17:06 raspberrypi kernel: [    2.476503] dwc_otg: Microframe scheduler enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532114] dwc_otg: FIQ enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532128] dwc_otg: NAK holdoff enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532138] dwc_otg: FIQ split-transaction FSM enabled
+Aug 18 06:17:06 raspberrypi kernel: [    2.532174] Module dwc_common_port init
+Aug 18 06:17:06 raspberrypi thd[319]: Found socket passed from systemd

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libirrecord.so.0.0.0
+/usr/lib/arm-linux-gnueabihf/liblirc.so.0.0.0
+/usr/lib/arm-linux-gnueabihf/liblirc_driver.so.0.3.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblirc0
+/usr/share/doc/liblirc0/NEWS.Debian.gz
+/usr/share/doc/liblirc0/changelog.Debian.gz
+/usr/share/doc/liblirc0/changelog.gz
+/usr/share/doc/liblirc0/copyright
+/usr/lib/arm-linux-gnueabihf/libirrecord.so.0
+/usr/lib/arm-linux-gnueabihf/liblirc.so.0
+/usr/lib/arm-linux-gnueabihf/liblirc_driver.so.0

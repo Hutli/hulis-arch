@@ -1,0 +1,90 @@
+
+Start-Date: 2020-08-12  21:01:55
+Commandline: apt-get install gunicorn
+Requested-By: pi (1000)
+Install: gunicorn:armhf (19.9.0-1), python-gunicorn:armhf (19.9.0-1, automatic)
+End-Date: 2020-08-12  21:02:05
+
+Start-Date: 2020-08-15  11:24:46
+Commandline: apt install mplayer
+Requested-By: pi (1000)
+Install: libx265-165:armhf (2.9-4, automatic), libavformat58:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libsnappy1v5:armhf (1.1.7-1, automatic), libopenjp2-7:armhf (2.3.0-2+deb10u1, automatic), libpangoft2-1.0-0:armhf (1.42.4-8~deb10u1, automatic), libaa1:armhf (1.4p5-46, automatic), libvorbisidec1:armhf (1.2.1+git20180316-3, automatic), libchromaprint1:armhf (1.4.3-3, automatic), libdrm-nouveau2:armhf (2.4.100-4+rpi1~bpo10+1, automatic), libxcb-xfixes0:armhf (1.13.1-2, automatic), libegl1:armhf (1.3.0-7~bpo10+1, automatic), libllvm9:armhf (1:9.0.1-6+rpi1~bpo10+1, automatic), libdv4:armhf (1.0.0-12, automatic), libgdk-pixbuf2.0-0:armhf (2.38.1+dfsg-1, automatic), libegl-mesa0:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libopenal1:armhf (1:1.19.1-1, automatic), va-driver-all:armhf (2.4.0-1, automatic), libswresample3:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libsndio7.0:armhf (1.5.0-3, automatic), libxcb-present0:armhf (1.13.1-2, automatic), libgl1:armhf (1.3.0-7~bpo10+1, automatic), libglapi-mesa:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libpixman-1-0:armhf (0.36.0-1+rpt1, automatic), librsvg2-common:armhf (2.44.10-2.1+rpi1, automatic), libxrender1:armhf (1:0.9.10-1, automatic), libcdio18:armhf (2.0.0-2, automatic), libogg0:armhf (1.3.2-1+b2, automatic), libopenmpt0:armhf (0.4.3-1+deb10u1, automatic), libdvdread4:armhf (6.0.1-1, automatic), libvdpau1:armhf (1.1.1-10, automatic), libcdio-cdda2:armhf (10.2+0.94+2-4, automatic), libmp3lame0:armhf (3.100-2+b1, automatic), liba52-0.7.4:armhf (0.7.4-19, automatic), libthai-data:armhf (0.1.28-2, automatic), libdca0:armhf (0.0.6-1, automatic), libvorbisfile3:armhf (1.3.6-2, automatic), libxcb-shm0:armhf (1.13.1-2, automatic), libgles2:armhf (1.3.0-7~bpo10+1, automatic), libxcb-render0:armhf (1.13.1-2, automatic), libwavpack1:armhf (5.1.0-6, automatic), libbdplus0:armhf (0.1.2-3, automatic), vdpau-driver-all:armhf (1.1.1-10, automatic), libopus0:armhf (1.3-1, automatic), libopenal-data:armhf (1:1.19.1-1, automatic), libpostproc55:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libvpx5:armhf (1.7.0-3+deb10u1, automatic), libdvdnav4:armhf (6.0.0-1, automatic), libgbm1:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libxshmfence1:armhf (1.3-1, automatic), libaom0:armhf (1.0.0-3, automatic), libsm6:armhf (2:1.2.3-1, automatic), libwayland-client0:armhf (1.16.0-1, automatic), libcdio-paranoia2:armhf (10.2+0.94+2-4, automatic), libdrm-amdgpu1:armhf (2.4.100-4+rpi1~bpo10+1, automatic), fontconfig:armhf (2.13.1-2, automatic), libva2:armhf (2.4.0-1, automatic), libx264-155:armhf (2:0.155.2917+git0a84d98-2+rpi1, automatic), libpangocairo-1.0-0:armhf (1.42.4-8~deb10u1, automatic), libpulse0:armhf (12.2-4+deb10u1, automatic), libass9:armhf (1:0.14.0-2, automatic), libmpg123-0:armhf (1.25.10-2, automatic), libxvidcore4:armhf (2:1.3.5-1, automatic), libcaca0:armhf (0.99.beta19-2.1, automatic), libxtst6:armhf (2:1.2.3-1, automatic), librsvg2-2:armhf (2.44.10-2.1+rpi1, automatic), libxi6:armhf (2:1.7.9-1, automatic), libzvbi0:armhf (0.2.35-16, automatic), libxt6:armhf (1:1.1.5-1+b3, automatic), libxv1:armhf (2:1.0.11-1, automatic), libvorbisenc2:armhf (1.3.6-2, automatic), libgif7:armhf (5.1.4-3, automatic), libxinerama1:armhf (2:1.1.4-2, automatic), libspeex1:armhf (1.2~rc1.2-1+b2, automatic), libaacs0:armhf (0.9.0-2, automatic), libvdpau-va-gl1:armhf (0.4.2-1+b1, automatic), libavcodec58:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libxrandr2:armhf (2:1.5.1-1, automatic), libavutil56:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libtheora0:armhf (1.1.1+dfsg.1-15, automatic), libsndfile1:armhf (1.0.28-6, automatic), libdrm2:armhf (2.4.100-4+rpi1~bpo10+1, automatic), libglx0:armhf (1.3.0-7~bpo10+1, automatic), libsdl1.2debian:armhf (1.2.15+dfsg2-4+rpt2, automatic), libgme0:armhf (0.6.2-1, automatic), libgdk-pixbuf2.0-bin:armhf (2.38.1+dfsg-1, automatic), libssh-gcrypt-4:armhf (0.8.7-1+deb10u1, automatic), libmad0:armhf (0.15.1b-10, automatic), libxfixes3:armhf (1:5.0.3-1, automatic), libthai0:armhf (0.1.28-2, automatic), libsoxr0:armhf (0.1.2-3, automatic), libwebpmux3:armhf (0.6.1-2, automatic), libxxf86dga1:armhf (2:1.1.4-1, automatic), libasyncns0:armhf (0.8-6, automatic), libgl1-mesa-dri:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libswscale5:armhf (7:4.1.6-1~deb10u1+rpt1, automatic), libgdk-pixbuf2.0-common:armhf (2.38.1+dfsg-1, automatic), libmpeg2-4:armhf (0.5.1-8, automatic), libgraphite2-3:armhf (1.3.13-7, automatic), libxxf86vm1:armhf (1:1.1.4-1+b2, automatic), libxdamage1:armhf (1:1.1.4-3+b3, automatic), libshine3:armhf (3.1.1-2+b1, automatic), libenca0:armhf (1.19-1, automatic), libflac8:armhf (1.3.2-3, automatic), libtwolame0:armhf (0.3.13-4, automatic), libgsm1:armhf (1.0.18-2, automatic), libva-x11-2:armhf (2.4.0-1, automatic), libbs2b0:armhf (3.1.0+dfsg-2.2, automatic), x11-common:armhf (1:7.7+19, automatic), libdrm-radeon1:armhf (2.4.100-4+rpi1~bpo10+1, automatic), libxvmc1:armhf (2:1.0.10-1, automatic), libva-drm2:armhf (2.4.0-1, automatic), mesa-vdpau-drivers:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libvorbis0a:armhf (1.3.6-2, automatic), libharfbuzz0b:armhf (2.3.1-1, automatic), libdirectfb-1.7-7:armhf (1.7.7-9, automatic), libice6:armhf (2:1.0.9-2, automatic), libcairo2:armhf (1.16.0-4+rpt1, automatic), libxcb-glx0:armhf (1.13.1-2, automatic), libzvbi-common:armhf (0.2.35-16, automatic), libpango-1.0-0:armhf (1.42.4-8~deb10u1, automatic), libxss1:armhf (1:1.2.3-1, automatic), libxcb-dri2-0:armhf (1.13.1-2, automatic), libxcb-dri3-0:armhf (1.13.1-2, automatic), libbluray2:armhf (1:1.1.0-1, automatic), libaudio2:armhf (1.9.4-6, automatic), libfaad2:armhf (2.8.8-3, automatic), libwayland-server0:armhf (1.16.0-1, automatic), libx11-xcb1:armhf (2:1.6.7-1, automatic), libxcb-sync1:armhf (1.13.1-2, automatic), mplayer:armhf (2:1.3.0-8+b5), mesa-va-drivers:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libcodec2-0.8.1:armhf (0.8.1-2, automatic), libdatrie1:armhf (0.2.12-2, automatic), libglx-mesa0:armhf (19.3.2-1~bpo10+1~rpt1, automatic), libglvnd0:armhf (1.3.0-7~bpo10+1, automatic), libdrm-common:armhf (2.4.100-4+rpi1~bpo10+1, automatic)
+End-Date: 2020-08-15  11:27:13
+
+Start-Date: 2020-08-15  17:24:25
+Commandline: apt install docker
+Requested-By: pi (1000)
+Install: docker:armhf (1.5-2), wmdocker:armhf (1.5-2, automatic)
+End-Date: 2020-08-15  17:24:27
+
+Start-Date: 2020-08-15  17:29:12
+Commandline: apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+Requested-By: pi (1000)
+Install: python3-distro-info:armhf (0.21, automatic), libpackagekit-glib2-18:armhf (1.1.12-5, automatic), gnupg-agent:armhf (2.2.12-1+rpi1+deb10u1), python3-software-properties:armhf (0.96.20.2-2, automatic), packagekit-tools:armhf (1.1.12-5, automatic), python3-pycurl:armhf (7.43.0.2-0.1, automatic), libglib2.0-bin:armhf (2.58.3-2+deb10u2, automatic), packagekit:armhf (1.1.12-5, automatic), gir1.2-packagekitglib-1.0:armhf (1.1.12-5, automatic), unattended-upgrades:armhf (1.11.2, automatic), apt-transport-https:armhf (1.8.2.1), libappstream4:armhf (0.12.5-1, automatic), libstemmer0d:armhf (0+svn585-1, automatic), libgstreamer1.0-0:armhf (1.14.4-1, automatic), software-properties-common:armhf (0.96.20.2-2)
+End-Date: 2020-08-15  17:29:57
+
+Start-Date: 2020-08-15  17:36:37
+Commandline: apt install docker.io
+Requested-By: pi (1000)
+Install: libmodule-find-perl:armhf (0.13-1, automatic), cgroupfs-mount:armhf (1.4, automatic), needrestart:armhf (3.4-5, automatic), libintl-perl:armhf (1.26-2, automatic), libmodule-scandeps-perl:armhf (1.27-1, automatic), runc:armhf (1.0.0~rc6+dfsg1-3, automatic), tini:armhf (0.18.0-1, automatic), libsort-naturally-perl:armhf (1.03-2, automatic), libnss3:armhf (2:3.42.1-1+deb10u3, automatic), libintl-xs-perl:armhf (1.26-2+b3, automatic), libnspr4:armhf (2:4.20-1, automatic), libproc-processtable-perl:armhf (0.56-1, automatic), docker.io:armhf (18.09.1+dfsg1-7.1+rpi1+rpt1)
+End-Date: 2020-08-15  17:38:04
+
+Start-Date: 2020-08-15  17:49:00
+Commandline: apt install jq
+Requested-By: pi (1000)
+Install: jq:armhf (1.5+dfsg-2+b1), libjq1:armhf (1.5+dfsg-2+b1, automatic), libonig5:armhf (6.9.1-1, automatic)
+End-Date: 2020-08-15  17:49:08
+
+Start-Date: 2020-08-16  09:06:19
+Commandline: apt-get install python3-venv
+Requested-By: pi (1000)
+Install: python3.7-venv:armhf (3.7.3-2+deb10u2, automatic), python3-venv:armhf (3.7.3-1)
+Upgrade: libpython3.7-minimal:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), libpython3.7:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), python3.7:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), python3.7-dev:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), libpython3.7-stdlib:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), python3.7-minimal:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2), libpython3.7-dev:armhf (3.7.3-2+deb10u1, 3.7.3-2+deb10u2)
+End-Date: 2020-08-16  09:07:15
+
+Start-Date: 2020-08-16  09:32:58
+Requested-By: pi (1000)
+Upgrade: liblircclient-dev:armhf (0.10.1-5.2, 0.10.1-6.2~deb10u1)
+End-Date: 2020-08-16  09:33:00
+
+Start-Date: 2020-08-16  09:39:33
+Commandline: apt-get upgrade
+Requested-By: pi (1000)
+Upgrade: libnginx-mod-http-geoip:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), bluez:armhf (5.50-1.2~deb10u1+rpt1, 5.50-1.2~deb10u1+rpt2), libnginx-mod-http-upstream-fair:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libraspberrypi-bin:armhf (1.20200723-1, 1.20200811-1), lirc:armhf (0.10.1-5.2, 0.10.1-6.2~deb10u1), libdbus-1-3:armhf (1.12.16-1, 1.12.20-0+deb10u1), libnginx-mod-http-auth-pam:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libraspberrypi-dev:armhf (1.20200723-1, 1.20200811-1), libraspberrypi-doc:armhf (1.20200723-1, 1.20200811-1), snmp:armhf (5.7.3+dfsg-5+b1, 5.7.3+dfsg-5+deb10u1), libnginx-mod-http-dav-ext:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), raspi-config:armhf (20200707, 20200727), dbus:armhf (1.12.16-1, 1.12.20-0+deb10u1), mariadb-common:armhf (1:10.3.22-0+deb10u1, 1:10.3.23-0+deb10u1), rpi-eeprom:armhf (7.8-1, 7.10-1), pi-bluetooth:armhf (0.1.13, 0.1.14), libsnmp-base:armhf (5.7.3+dfsg-5, 5.7.3+dfsg-5+deb10u1), nginx-common:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), raspberrypi-kernel:armhf (1.20200723-1, 1.20200811-1), libnginx-mod-http-subs-filter:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), nginx-full:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), raspberrypi-bootloader:armhf (1.20200723-1, 1.20200811-1), libsnmp30:armhf (5.7.3+dfsg-5+b1, 5.7.3+dfsg-5+deb10u1), mailutils-common:armhf (1:3.5-3, 1:3.5-4), nmap:armhf (7.70+dfsg1-6, 7.70+dfsg1-6+deb10u1), libntlm0:armhf (1.5-1, 1.5-1+deb10u1), libnginx-mod-http-image-filter:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), mailutils:armhf (1:3.5-3, 1:3.5-4), libnginx-mod-http-echo:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libnginx-mod-mail:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libraspberrypi0:armhf (1.20200723-1, 1.20200811-1), liblirc-dev:armhf (0.10.1-5.2, 0.10.1-6.2~deb10u1), libmailutils5:armhf (1:3.5-3, 1:3.5-4), libmariadb3:armhf (1:10.3.22-0+deb10u1, 1:10.3.23-0+deb10u1), libgnutls30:armhf (3.6.7-4+deb10u4, 3.6.7-4+deb10u5), libnginx-mod-stream:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libnginx-mod-http-xslt-filter:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2), libjson-c3:armhf (0.12.1+ds-2, 0.12.1+ds-2+deb10u1), raspberrypi-sys-mods:armhf (20200514, 20200812), libgnutls-dane0:armhf (3.6.7-4+deb10u4, 3.6.7-4+deb10u5), liblirc0:armhf (0.10.1-5.2, 0.10.1-6.2~deb10u1), nmap-common:armhf (7.70+dfsg1-6, 7.70+dfsg1-6+deb10u1), liblirc-client0:armhf (0.10.1-5.2, 0.10.1-6.2~deb10u1), nfs-common:armhf (1:1.3.4-2.5, 1:1.3.4-2.5+deb10u1), nginx:armhf (1.14.2-2+deb10u1, 1.14.2-2+deb10u2)
+End-Date: 2020-08-16  09:49:35
+
+Start-Date: 2020-08-16  09:56:23
+Commandline: apt-get install python3-flask
+Requested-By: pi (1000)
+Install: python3-werkzeug:armhf (0.14.1+dfsg1-4+deb10u1, automatic), python3-pyinotify:armhf (0.9.6-1, automatic), python3-simplejson:armhf (3.16.0-1, automatic), python3-itsdangerous:armhf (0.24+dfsg1-2, automatic), python3-click:armhf (7.0-1, automatic), python3-markupsafe:armhf (1.1.0-1, automatic), python3-blinker:armhf (1.4+dfsg1-0.2, automatic), python3-openssl:armhf (19.0.0-1, automatic), python3-jinja2:armhf (2.10-2, automatic), python3-flask:armhf (1.0.2-3), python3-colorama:armhf (0.3.7-1, automatic)
+End-Date: 2020-08-16  09:56:54
+
+Start-Date: 2020-08-16  10:11:45
+Commandline: apt-get reinstall python3-requests
+Requested-By: pi (1000)
+Reinstall: python3-requests:armhf (2.21.0-1)
+End-Date: 2020-08-16  10:11:50
+
+Start-Date: 2020-08-16  10:39:40
+Commandline: apt-get reinstall mplayer
+Requested-By: pi (1000)
+Reinstall: mplayer:armhf (2:1.3.0-8+b5)
+End-Date: 2020-08-16  10:39:50
+
+Start-Date: 2020-08-16  10:58:48
+Commandline: apt-get reinstall mplayer
+Requested-By: pi (1000)
+Reinstall: mplayer:armhf (2:1.3.0-8+b5)
+End-Date: 2020-08-16  10:58:53
+
+Start-Date: 2020-08-16  13:41:47
+Commandline: apt upgrade
+Requested-By: pi (1000)
+Install: rpi.gpio-common:armhf (0.7.0-0.1~bpo10+1, automatic)
+Upgrade: python-rpi.gpio:armhf (0.7.0~buster-1, 0.7.0-0.1~bpo10+1)
+End-Date: 2020-08-16  13:41:55
+
+Start-Date: 2020-08-16  16:36:34
+Commandline: apt install certbot
+Install: python3-zope.interface:armhf (4.3.2-1+b2, automatic), python3-configargparse:armhf (0.13.0-1, automatic), python3-josepy:armhf (1.1.0-2, automatic), certbot:armhf (0.31.0-1), python3-zope.hookable:armhf (4.0.4-4+b3, automatic), python3-pbr:armhf (4.2.0-5, automatic), python3-zope.event:armhf (4.2.0-1, automatic), python3-zope.component:armhf (4.3.0-1, automatic), python3-mock:armhf (2.0.0-4, automatic), python3-future:armhf (0.16.0-1, automatic), python3-acme:armhf (0.31.0-2, automatic), python3-configobj:armhf (5.0.6-3, automatic), python-pyicu:armhf (2.2-2, automatic), python3-rfc3339:armhf (1.1-1, automatic), python3-requests-toolbelt:armhf (0.8.0-1, automatic), python3-certbot:armhf (0.31.0-1, automatic), python3-tz:armhf (2019.1-1, automatic), python3-parsedatetime:armhf (2.4-2, automatic)
+End-Date: 2020-08-16  16:37:37

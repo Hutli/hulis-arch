@@ -1,0 +1,130 @@
+#!/usr/bin/env python
+
+# rpi-eeprom-config
+# Utility for reading and writing the configuration file in the
+# Raspberry Pi 4 bootloader EEPROM image.
+
+import argparse
+import struct
+import sys
+
+IMAGE_SIZE = 512 * 1024
+
+MAX_BOOTCONF_SIZE = 2024
+
+# Each section starts with a magic number followed by a 32 bit offset to the
+# next section (big-endian).
+# The number, order and size of the sections depends on the bootloader version
+# but the following mask can be used to test for section headers and skip
+# unknown data.
+MAGIC = 0x55aaf00f
+MAGIC_MASK = 0xfffff00f
+FILE_MAGIC = 0x55aaf11f # id for modifiable file, currently only bootconf.txt
+FILE_HDR_LEN = 20
+FILENAME_LEN = 12
+
+class BootloaderImage(object):
+    def __init__(self, filename, output):
+        self._filename = filename
+        self._bytes = bytearray(open(filename, 'rb').read())
+        self._out = None
+        if output is not None:
+            self._out = open(output, 'wb')
+
+        if len(self._bytes) != IMAGE_SIZE:
+            raise Exception("%s: Expected size %d bytes actual size %d bytes" %
+                            (filename, IMAGE_SIZE, len(self._bytes)))
+
+    def find_config(self):
+        offset = 0
+        magic = 0
+        while offset < IMAGE_SIZE:
+            magic, length = struct.unpack_from('>LL', self._bytes, offset)
+            if (magic & MAGIC_MASK) != MAGIC:
+                raise Exception('EEPROM is corrupted')
+
+            if magic == FILE_MAGIC: # Found a file
+                name = self._bytes[offset + 8: offset + FILE_HDR_LEN]
+                if name.decode('utf-8') == 'bootconf.txt':
+                    return (offset, length)
+
+            offset += 8 + length # length + type
+            offset = (offset + 7) & ~7
+
+        raise Exception('Bootloader config not found')
+
+    def write(self, new_config):
+        hdr_offset, length = self.find_config()
+        new_config_bytes = open(new_config, 'rb').read()
+        new_len = len(new_config_bytes) + FILENAME_LEN + 4
+        if len(new_config_bytes) > MAX_BOOTCONF_SIZE:
+            raise Exception("Config is too large (%d bytes). The maximum size is %d bytes."
+                    % (len(new_config_bytes), MAX_BOOTCONF_SIZE))
+        if hdr_offset + len(new_config_bytes) + FILE_HDR_LEN > IMAGE_SIZE:
+            raise Exception('EEPROM image size exceeded')
+
+        struct.pack_into('>L', self._bytes, hdr_offset + 4, new_len)
+        struct.pack_into(("%ds" % len(new_config_bytes)), self._bytes, hdr_offset + 4 + FILE_HDR_LEN, new_config_bytes)
+
+        # If the new config is smaller than the old config then set any old
+        # data which is now unused to all ones (erase value)
+        pad_start = hdr_offset + 4 + FILE_HDR_LEN + len(new_config_bytes)
+        pad = 0
+        while pad < (length - len(new_config_bytes)):
+            struct.pack_into('B', self._bytes, pad_start + pad, 0xff)
+            pad = pad + 1
+
+        if self._out is not None:
+            self._out.write(self._bytes)
+            self._out.close()
+        else:
+            if hasattr(sys.stdout, 'buffer'):
+                sys.stdout.buffer.write(self._bytes)
+            else:
+                sys.stdout.write(self._bytes)
+
+    def read(self):
+        hdr_offset, length = self.find_config()
+        offset = hdr_offset + 4 + FILE_HDR_LEN
+        config_bytes = self._bytes[offset:offset+length-FILENAME_LEN-4]
+        if self._out is not None:
+            self._out.write(config_bytes)
+            self._out.close()
+        else:
+            if hasattr(sys.stdout, 'buffer'):
+                sys.stdout.buffer.write(config_bytes)
+            else:
+                sys.stdout.write(config_bytes)
+
+def main():
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, \
+    description='Bootloader EEPROM configuration tool for the Raspberry Pi 4. \
+\n\nThere are 3 operating modes: \
+\n\n1. Output the bootloader configuration stored in an EEPROM image file to \
+the screen (STDOUT): specify only the name of an EEPROM image file using the \
+\'eeprom\' option. \
+\n\n2. Output the bootloader configuration stored in an EEPROM image file to a \
+file: specify the EEPROM image file using the \'eeprom\' option, and the output \
+file using the \'--out\' option.\
+\n\n3. Insert a new bootloader configuration into an EEPROM image file: specify \
+the source EEPROM image file using the \'eeprom\' option and the bootloader \
+configuration file using the \'--config\' option. A new file which is a \
+combination of the EEPROM image file, together with the new bootloader \
+configuration file will be created - specify its name using the \'--out\' option. \
+The new bootloader configuration will replace any configuration present in the \
+source EEPROM image.\
+\n\nBootloader EEPROM images are contained in the \'rpi-eeprom-images\' package,\
+ which installs them to the /lib/firmware/raspberrypi/bootloader directory.')
+    parser.add_argument('--config', help='Name of bootloader configuration file')
+    parser.add_argument('--out', help='Name of output file')
+    parser.add_argument('eeprom', help='Name of EEPROM file to use as input')
+    args = parser.parse_args()
+
+    image = BootloaderImage(args.eeprom, args.out)
+    if args.config is not None:
+        image.write(args.config)
+    else:
+        image.read()
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,11 @@
+48857f29f99906e57dd8011e032d41fe  usr/share/doc/libsub-exporter-perl/changelog.Debian.gz
+3f412091171cd419b75fad18111b5489  usr/share/doc/libsub-exporter-perl/changelog.gz
+a5a3eae926d70c0e13bccd15e1519a5f  usr/share/doc/libsub-exporter-perl/copyright
+8f04f53e28014740dec3c29b491dc51f  usr/share/man/man3/Sub::Exporter.3pm.gz
+3a1636d363e94076da1a6876da19f5f4  usr/share/man/man3/Sub::Exporter::Cookbook.3pm.gz
+ce8c6e8d76daedc3d3289ae08e5a9e9d  usr/share/man/man3/Sub::Exporter::Tutorial.3pm.gz
+3847e704e88fc3ef85d1414e448cf4ce  usr/share/man/man3/Sub::Exporter::Util.3pm.gz
+aa6b0dc0ffcf3831d4cee7da6d7e8330  usr/share/perl5/Sub/Exporter.pm
+a5dea79a24b413ef24c8e9c583266d74  usr/share/perl5/Sub/Exporter/Cookbook.pod
+99ddecdc226af388155003a5b1eb6843  usr/share/perl5/Sub/Exporter/Tutorial.pod
+9bfd22ab1afa835541f6a7d298ab90fc  usr/share/perl5/Sub/Exporter/Util.pm

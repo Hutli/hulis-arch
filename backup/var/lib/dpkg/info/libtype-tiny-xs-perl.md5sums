@@ -1,0 +1,9 @@
+bc0d15e0615fc00ba05c98c1194e8c52  usr/lib/arm-linux-gnueabihf/perl5/5.28/Type/Tiny/XS.pm
+c329c7c7254efcb9c74dc17520a1974e  usr/lib/arm-linux-gnueabihf/perl5/5.28/Type/Tiny/XS/Util.pm
+3fb1704c7a026cdc4563e41633e28c7f  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Type/Tiny/XS/XS.so
+8f5fc290918d3cf1bcfb5a827f9fb979  usr/share/doc/libtype-tiny-xs-perl/changelog.Debian.armhf.gz
+d3ee76a1e4ea248b134a68c78e64bca5  usr/share/doc/libtype-tiny-xs-perl/changelog.Debian.gz
+faeafebce42b437b1278ce06b42d1ae5  usr/share/doc/libtype-tiny-xs-perl/changelog.gz
+4923d8759ff2c310125c2824468a1e6b  usr/share/doc/libtype-tiny-xs-perl/copyright
+074e0308b0845dd2ec23dfe048edbf13  usr/share/man/man3/Type::Tiny::XS.3pm.gz
+2ffd9f701ed214413a3a16f8585e092e  usr/share/man/man3/Type::Tiny::XS::Util.3pm.gz

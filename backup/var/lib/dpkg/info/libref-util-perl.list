@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libref-util-perl
+/usr/share/doc/libref-util-perl/changelog.Debian.gz
+/usr/share/doc/libref-util-perl/changelog.gz
+/usr/share/doc/libref-util-perl/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Ref::Util.3pm.gz
+/usr/share/man/man3/Ref::Util::PP.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/Ref
+/usr/share/perl5/Ref/Util
+/usr/share/perl5/Ref/Util/PP.pm
+/usr/share/perl5/Ref/Util.pm

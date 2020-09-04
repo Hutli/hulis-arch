@@ -1,0 +1,26 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: String::Copyright
+Upstream-Contact: https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=libstring-copyright-perl
+ http://rt.cpan.org/Dist/Display.html?Queue=String-Copyright
+Source: https://metacpan.org/release/String-Copyright
+ https://salsa.debian.org/build-common-team/string-copyright.git
+
+Files: *
+Copyright: 2005-2010, 2016-2018  Jonas Smedegaard <dr@jones.dk>
+ 2007-2008  Adam D. Barratt <adam@adam-barratt.org.uk>
+License-Grant:
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 3, or (at your option) any
+ later version.
+License: GPL-3+
+
+Files: Makefile.PL
+Copyright: 2013, Toby Inkster <tobyink@cpan.org>
+License: Artistic or GPL-1+
+
+License: GPL-3+
+License-Reference: /usr/share/common-licenses/GPL-3
+
+License: GPL-1+
+License-Reference: /usr/share/common-licenses/GPL-1

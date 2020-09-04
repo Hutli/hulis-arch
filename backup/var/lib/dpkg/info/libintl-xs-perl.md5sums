@@ -1,0 +1,8 @@
+8d5695dcd9954ca8867549aa2abb2560  usr/lib/arm-linux-gnueabihf/perl5/5.28/Locale/gettext_xs.pm
+4b87616690de64adc7c77f7d0f5ae9ba  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Locale/gettext_xs/gettext_xs.so
+56c67b04d8e1b64acd805a5be7ac1aaf  usr/share/doc/libintl-xs-perl/changelog.Debian.armhf.gz
+883d428ed340268e751fd9e4c19e9ffb  usr/share/doc/libintl-xs-perl/changelog.Debian.gz
+94bbbaad65a64fbd788051851c4cacbd  usr/share/doc/libintl-xs-perl/changelog.gz
+554a175e146df594156188cfc08a8b62  usr/share/doc/libintl-xs-perl/copyright
+cf5736600fbbb9eeea14fd7c8d16d58d  usr/share/lintian/overrides/libintl-xs-perl
+85d213302d84d52ddeb0d6b6b9dae070  usr/share/man/man3/Locale::gettext_xs.3pm.gz

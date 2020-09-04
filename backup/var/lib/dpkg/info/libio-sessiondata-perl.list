@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/perl5
+/usr/share/perl5/IO
+/usr/share/perl5/IO/SessionData.pm
+/usr/share/perl5/IO/SessionSet.pm
+/usr/share/doc
+/usr/share/doc/libio-sessiondata-perl
+/usr/share/doc/libio-sessiondata-perl/changelog.Debian.gz
+/usr/share/doc/libio-sessiondata-perl/copyright
+/usr/share/doc/libio-sessiondata-perl/changelog.gz

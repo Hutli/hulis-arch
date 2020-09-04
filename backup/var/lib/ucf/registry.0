@@ -1,0 +1,4 @@
+openssh-server 	 /etc/ssh/sshd_config
+apt-listchanges 	 /etc/apt/listchanges.conf
+libxml-sax-perl 	 /etc/perl/XML/SAX/ParserDetails.ini
+unattended-upgrades 	 /etc/apt/apt.conf.d/20auto-upgrades

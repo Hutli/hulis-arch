@@ -1,0 +1,3 @@
+#!/bin/sh
+
+tail -f -n 1000000000 test.log | grep -v "Scanning" | grep -a '>>> YIKES...\|r0/zero=\|r4/a0  =\|r8/t0  =\|r12/t4 =\|r16/s0 =\|r20/s4 =\|r24/t8 =\|r28/gp =\|PC   :cause:\|BCM interrupt enable:\|Bad PC or SP.\|Task: HTTPD\|---------------------------------------------------\|ID:               \|Handle:           \|Set Priority:     \|Current Priority: \|State:            \|Stack Base:       \|Stack Size:       \|Stack Used:       ' | socat - TCP-LISTEN:1337,fork,reuseaddr

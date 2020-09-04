@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dh_python3:
+if which py3compile >/dev/null 2>&1; then
+	py3compile -p dput /usr/share/dput
+fi
+if which pypy3compile >/dev/null 2>&1; then
+	pypy3compile -p dput /usr/share/dput || true
+fi
+
+# End automatically added section
+# Automatically added by dh_installdeb/12
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/dput 0.12.2\~ dput -- "$@"
+# End automatically added section

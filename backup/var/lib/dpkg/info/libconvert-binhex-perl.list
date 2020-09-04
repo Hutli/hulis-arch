@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libconvert-binhex-perl
+/usr/share/doc/libconvert-binhex-perl/changelog.Debian.gz
+/usr/share/doc/libconvert-binhex-perl/changelog.gz
+/usr/share/doc/libconvert-binhex-perl/examples
+/usr/share/doc/libconvert-binhex-perl/examples/debinhex.pl.gz
+/usr/share/doc/libconvert-binhex-perl/examples/binhex.pl
+/usr/share/doc/libconvert-binhex-perl/copyright
+/usr/share/perl5
+/usr/share/perl5/Convert
+/usr/share/perl5/Convert/BinHex.pm
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Convert::BinHex.3pm.gz

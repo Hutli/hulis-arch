@@ -1,0 +1,50 @@
+2020-08-16 16:39:37,002:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-16 16:39:37,004:DEBUG:certbot.main:Arguments: []
+2020-08-16 16:39:37,005:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-16 16:39:37,084:DEBUG:certbot.log:Root logging level set at 20
+2020-08-16 16:39:37,087:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-16 16:39:37,093:DEBUG:certbot.plugins.selection:Requested authenticator None and installer None
+2020-08-16 16:39:37,095:DEBUG:certbot.plugins.selection:No candidate plugin
+2020-08-16 16:39:37,095:DEBUG:certbot.plugins.selection:Selected authenticator None and installer None
+2020-08-16 16:40:31,343:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-16 16:40:31,345:DEBUG:certbot.main:Arguments: ['-d', 'xn--xj8h.pyjam.as']
+2020-08-16 16:40:31,347:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-16 16:40:31,428:DEBUG:certbot.log:Root logging level set at 20
+2020-08-16 16:40:31,430:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-16 16:40:31,436:DEBUG:certbot.plugins.selection:Requested authenticator None and installer None
+2020-08-16 16:40:31,438:DEBUG:certbot.plugins.selection:No candidate plugin
+2020-08-16 16:40:31,438:DEBUG:certbot.plugins.selection:Selected authenticator None and installer None
+2020-08-16 16:40:39,947:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-16 16:40:39,949:DEBUG:certbot.main:Arguments: ['-d', 'xn--xj8h.pyjam.as']
+2020-08-16 16:40:39,950:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-16 16:40:40,031:DEBUG:certbot.log:Root logging level set at 20
+2020-08-16 16:40:40,033:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-16 16:40:40,039:DEBUG:certbot.plugins.selection:Requested authenticator None and installer None
+2020-08-16 16:40:40,041:DEBUG:certbot.plugins.selection:No candidate plugin
+2020-08-16 16:40:40,042:DEBUG:certbot.plugins.selection:Selected authenticator None and installer None
+2020-08-16 16:41:21,322:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-16 16:41:21,324:DEBUG:certbot.main:Arguments: ['--nginx']
+2020-08-16 16:41:21,326:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-16 16:41:21,406:DEBUG:certbot.log:Root logging level set at 20
+2020-08-16 16:41:21,409:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-16 16:41:21,415:DEBUG:certbot.plugins.selection:Requested authenticator nginx and installer nginx
+2020-08-16 16:41:21,416:DEBUG:certbot.plugins.selection:No candidate plugin
+2020-08-16 16:41:21,417:DEBUG:certbot.plugins.selection:Selected authenticator None and installer None
+2020-08-17 07:16:07,284:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-17 07:16:07,286:DEBUG:certbot.main:Arguments: ['-q']
+2020-08-17 07:16:07,288:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-17 07:16:07,377:DEBUG:certbot.log:Root logging level set at 30
+2020-08-17 07:16:07,379:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-17 07:16:07,388:DEBUG:certbot.renewal:no renewal failures
+2020-08-17 15:17:12,435:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-17 15:17:12,437:DEBUG:certbot.main:Arguments: ['-q']
+2020-08-17 15:17:12,438:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-17 15:17:12,526:DEBUG:certbot.log:Root logging level set at 30
+2020-08-17 15:17:12,529:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-17 15:17:12,538:DEBUG:certbot.renewal:no renewal failures
+2020-08-18 01:43:22,842:DEBUG:certbot.main:certbot version: 0.31.0
+2020-08-18 01:43:22,844:DEBUG:certbot.main:Arguments: ['-q']
+2020-08-18 01:43:22,845:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2020-08-18 01:43:22,931:DEBUG:certbot.log:Root logging level set at 30
+2020-08-18 01:43:22,933:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2020-08-18 01:43:22,944:DEBUG:certbot.renewal:no renewal failures

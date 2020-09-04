@@ -1,0 +1,8 @@
+4e2f5d46981c06a496fe7e151da70277  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sereal/Encoder.pm
+3d34cac88124cd5cc72b26c49dfe9107  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sereal/Encoder/Constants.pm
+66524473c4522e54b68bc0915e10ffa6  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Sereal/Encoder/Encoder.so
+711ac4b6717017d785ce743ddd3e5bc2  usr/share/doc/libsereal-encoder-perl/changelog.Debian.armhf.gz
+fbf001563554af245dddc8372f1e1b8e  usr/share/doc/libsereal-encoder-perl/changelog.Debian.gz
+1aae467fb6ac97716754d37871fbf30b  usr/share/doc/libsereal-encoder-perl/changelog.gz
+ce91586efbfa7e4a38f5293b75601124  usr/share/doc/libsereal-encoder-perl/copyright
+5c38885fb417f45648c8566b4d273be9  usr/share/man/man3/Sereal::Encoder.3pm.gz

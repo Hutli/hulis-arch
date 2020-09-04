@@ -1,0 +1,77 @@
+Aptitude 0.8.11: log report
+Fri, Jul 31 2020 13:56:57 +0100
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 3 packages, and remove 0 packages.
+6888 kB of disk space will be used
+========================================
+[INSTALL, DEPENDENCIES] liblirc-dev:armhf 0.10.1-5.2
+[HOLD] python-rpi.gpio:armhf 0.7.0~buster-1
+[INSTALL] cython:armhf 0.29.2-2
+[INSTALL] liblircclient-dev:armhf 0.10.1-5.2
+========================================
+
+Log complete.
+
+===============================================================================
+
+Aptitude 0.8.11: log report
+Sun, Aug 16 2020 09:32:52 +0100
+
+  IMPORTANT: this log only lists intended actions; actions which fail
+  due to dpkg problems may not be completed.
+
+Will install 1 packages, and remove 0 packages.
+========================================
+[HOLD, DEPENDENCIES] bluez:armhf 5.50-1.2~deb10u1+rpt1
+[HOLD, DEPENDENCIES] dbus:armhf 1.12.16-1
+[HOLD, DEPENDENCIES] libdbus-1-3:armhf 1.12.16-1
+[HOLD, DEPENDENCIES] libgnutls-dane0:armhf 3.6.7-4+deb10u4
+[HOLD, DEPENDENCIES] liblirc-client0:armhf 0.10.1-5.2
+[HOLD, DEPENDENCIES] liblirc-dev:armhf 0.10.1-5.2
+[HOLD, DEPENDENCIES] liblirc0:armhf 0.10.1-5.2
+[HOLD, DEPENDENCIES] libmailutils5:armhf 1:3.5-3
+[HOLD, DEPENDENCIES] libmariadb3:armhf 1:10.3.22-0+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-auth-pam:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-dav-ext:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-echo:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-geoip:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-image-filter:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-subs-filter:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-upstream-fair:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-http-xslt-filter:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-mail:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libnginx-mod-stream:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] libntlm0:armhf 1.5-1
+[HOLD, DEPENDENCIES] mailutils:armhf 1:3.5-3
+[HOLD, DEPENDENCIES] mailutils-common:armhf 1:3.5-3
+[HOLD, DEPENDENCIES] mariadb-common:armhf 1:10.3.22-0+deb10u1
+[HOLD, DEPENDENCIES] nginx-common:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] nginx-full:armhf 1.14.2-2+deb10u1
+[HOLD, DEPENDENCIES] nmap-common:armhf 7.70+dfsg1-6
+[HOLD] libgnutls30:armhf 3.6.7-4+deb10u4
+[HOLD] libjson-c3:armhf 0.12.1+ds-2
+[HOLD] libraspberrypi-bin:armhf 1.20200723-1
+[HOLD] libraspberrypi-dev:armhf 1.20200723-1
+[HOLD] libraspberrypi-doc:armhf 1.20200723-1
+[HOLD] libraspberrypi0:armhf 1.20200723-1
+[HOLD] lirc:armhf 0.10.1-5.2
+[HOLD] nfs-common:armhf 1:1.3.4-2.5
+[HOLD] nginx:armhf 1.14.2-2+deb10u1
+[HOLD] nmap:armhf 7.70+dfsg1-6
+[HOLD] pi-bluetooth:armhf 0.1.13
+[HOLD] python-rpi.gpio:armhf 0.7.0~buster-1
+[HOLD] raspberrypi-bootloader:armhf 1.20200723-1
+[HOLD] raspberrypi-kernel:armhf 1.20200723-1
+[HOLD] raspberrypi-sys-mods:armhf 20200514
+[HOLD] raspi-config:armhf 20200707
+[HOLD] rpi-eeprom:armhf 7.8-1
+[UPGRADE] liblircclient-dev:armhf 0.10.1-5.2 -> 0.10.1-6.2~deb10u1
+========================================
+
+Log complete.
+
+===============================================================================
+

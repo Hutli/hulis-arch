@@ -1,0 +1,9 @@
+75f1a30d629119410f2709789de2d03c  usr/share/doc/libdigest-hmac-perl/changelog.Debian.gz
+92039afd5032ec4696a8b6c003f408f8  usr/share/doc/libdigest-hmac-perl/changelog.gz
+ced97ebae5542935188567c62f363dac  usr/share/doc/libdigest-hmac-perl/copyright
+8cfb2e977f69244b201ee9620ee98dc6  usr/share/man/man3/Digest::HMAC.3pm.gz
+f0da229c8abf01822de639d13244b366  usr/share/man/man3/Digest::HMAC_MD5.3pm.gz
+c6140efb00db9fb8c25ceff16b95e593  usr/share/man/man3/Digest::HMAC_SHA1.3pm.gz
+977cd2b318fb4dac825b967b5b039d81  usr/share/perl5/Digest/HMAC.pm
+27c160c239939d80303ce48f60f81038  usr/share/perl5/Digest/HMAC_MD5.pm
+8ca1cd1ba766532da4d975a38c832d21  usr/share/perl5/Digest/HMAC_SHA1.pm

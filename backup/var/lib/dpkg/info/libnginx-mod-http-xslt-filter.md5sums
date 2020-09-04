@@ -1,0 +1,5 @@
+3519e6a62e63015ec0931898031b7acd  usr/lib/nginx/modules/ngx_http_xslt_filter_module.so
+ac66b1ef3381a155cf4e6ff434a6ed83  usr/share/doc/libnginx-mod-http-xslt-filter/changelog.Debian.gz
+11f2b9048392b278abeec7521347a418  usr/share/doc/libnginx-mod-http-xslt-filter/changelog.gz
+f89bef9fa1d22af419e5154ad3966930  usr/share/doc/libnginx-mod-http-xslt-filter/copyright
+75ea1f43de8f1e9f73aba1a5705423be  usr/share/nginx/modules-available/mod-http-xslt-filter.conf

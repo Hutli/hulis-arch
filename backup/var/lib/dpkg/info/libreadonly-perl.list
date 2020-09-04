@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libreadonly-perl
+/usr/share/doc/libreadonly-perl/changelog.Debian.gz
+/usr/share/doc/libreadonly-perl/changelog.gz
+/usr/share/doc/libreadonly-perl/copyright
+/usr/share/doc/libreadonly-perl/examples
+/usr/share/doc/libreadonly-perl/examples/benchmark.pl
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/Readonly.3pm.gz
+/usr/share/perl5
+/usr/share/perl5/Readonly.pm

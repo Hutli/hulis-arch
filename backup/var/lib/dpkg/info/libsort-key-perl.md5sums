@@ -1,0 +1,17 @@
+b2064ed988b3233e6307e982c0415ac2  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key.pm
+ff08196446d9834d055a68aa6be3bcf0  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key/Maker.pm
+b5f37d2e99c1ec1daf5ca741ee932f8c  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key/Multi.pm
+92d98a0152be71eea9a7f8d04c19e8b9  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key/Natural.pm
+28122d9af3f03ce1de114e48eb427b46  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key/Register.pm
+207aa4a8728748443a0c84c9d4710a7c  usr/lib/arm-linux-gnueabihf/perl5/5.28/Sort/Key/Types.pm
+9e306153581b9d69b3784708d48e8f7c  usr/lib/arm-linux-gnueabihf/perl5/5.28/auto/Sort/Key/Key.so
+19c10d89b3694e7b24236c3f35b44002  usr/share/doc/libsort-key-perl/changelog.Debian.armhf.gz
+01e13e3078d7321519df0ce1c6630fce  usr/share/doc/libsort-key-perl/changelog.Debian.gz
+7ad0a0377c9291e6dc1bb60669537f18  usr/share/doc/libsort-key-perl/changelog.gz
+5e2aca4537ee1a5dcaa4c5c37353a60e  usr/share/doc/libsort-key-perl/copyright
+92ba65648ed89ede574b55ad731ee45f  usr/share/man/man3/Sort::Key.3pm.gz
+0028cf41249d9701f9348305496dc8d7  usr/share/man/man3/Sort::Key::Maker.3pm.gz
+45e5585c8345e282a36b8d0cc8a4beab  usr/share/man/man3/Sort::Key::Multi.3pm.gz
+27e72a0ce062a566cdb6b99e3ac0d4e0  usr/share/man/man3/Sort::Key::Natural.3pm.gz
+96b69602c8542cacb3a7f76d7b4af96c  usr/share/man/man3/Sort::Key::Register.3pm.gz
+b8f6cfa913e9e7181413bd4a7130c8a9  usr/share/man/man3/Sort::Key::Types.3pm.gz

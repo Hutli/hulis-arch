@@ -1,0 +1,9 @@
+b51abfe4e54d42528b8958345f9ae3a1  usr/share/doc/debian-keyring/NEWS.Debian.gz
+bb4800c08b2f600db2190738ac8c102b  usr/share/doc/debian-keyring/README.gz
+23138c0092e892d585fa2bd6ca39d385  usr/share/doc/debian-keyring/changelog.gz
+61b3d64bf96fba674baafa5edbb40150  usr/share/doc/debian-keyring/changelog.old.gz
+9a0f0a25caa292c99c6411bbb01023d1  usr/share/doc/debian-keyring/copyright
+a6a18bfea1b29b9f823fe202681c94ca  usr/share/keyrings/debian-keyring.gpg
+58b56b9312e4c7a38b2e9a7b2a0e6192  usr/share/keyrings/debian-maintainers.gpg
+32638692fed05afc94536e5e5b05b39e  usr/share/keyrings/debian-nonupload.gpg
+050da1683fb1f345e49e17b277a94eb2  usr/share/keyrings/debian-role-keys.gpg

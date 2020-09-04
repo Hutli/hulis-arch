@@ -1,0 +1,8 @@
+/etc/init.d/lircd
+/etc/init.d/lircmd
+/etc/lirc/irexec.lircrc
+/etc/lirc/lirc_options.conf
+/etc/lirc/lircd.conf
+/etc/lirc/lircd.conf.d/README.conf.d
+/etc/lirc/lircd.conf.d/devinput.lircd.conf
+/etc/lirc/lircmd.conf

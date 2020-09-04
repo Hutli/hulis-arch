@@ -1,0 +1,1 @@
+tail -n 1000 -f test.log | grep -v "Scanning" | socat - TCP-LISTEN:1337,fork,reuseaddr

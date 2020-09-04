@@ -1,0 +1,13 @@
+[Unit]
+Description=Data Useage Service
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=data-useage.py
+StandardInput=tty-force
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

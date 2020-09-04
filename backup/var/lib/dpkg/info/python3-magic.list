@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/magic
+/usr/lib/python3/dist-packages/magic/__init__.py
+/usr/lib/python3/dist-packages/magic/compat.py
+/usr/lib/python3/dist-packages/python_magic-0.4.16.egg-info
+/usr/lib/python3/dist-packages/python_magic-0.4.16.egg-info/PKG-INFO
+/usr/lib/python3/dist-packages/python_magic-0.4.16.egg-info/dependency_links.txt
+/usr/lib/python3/dist-packages/python_magic-0.4.16.egg-info/top_level.txt
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-magic
+/usr/share/doc/python3-magic/changelog.Debian.gz
+/usr/share/doc/python3-magic/copyright

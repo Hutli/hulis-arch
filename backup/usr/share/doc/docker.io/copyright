@@ -1,0 +1,544 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Docker
+Upstream-Contact: Docker, Inc. <support@docker.com>
+Source: https://github.com/docker/docker
+Files-Excluded:
+  .github
+  .gitignore
+  components/packaging
+  vendor/k8s.io/*/third_party/protobuf
+    vendor/archive
+    vendor/cloud.google.com
+    vendor/github.com/agl/ed25519
+    vendor/github.com/armon/go-metrics
+    vendor/github.com/armon/go-radix
+    vendor/github.com/asaskevich/govalidator
+    vendor/github.com/aws/aws-sdk-go
+    vendor/github.com/Azure/azure-sdk-for-go
+    vendor/github.com/Azure/go-ansiterm
+    vendor/github.com/Azure/go-autorest
+    vendor/github.com/beorn7/perks
+    vendor/github.com/blang/semver
+    vendor/github.com/boltdb/bolt
+    vendor/github.com/bshuster-repo/logrus-logstash-hook
+    vendor/github.com/bsphere/le_go
+    vendor/github.com/bugsnag/bugsnag-go
+    vendor/github.com/bugsnag/osext
+    vendor/github.com/bugsnag/panicwrap
+    vendor/github.com/BurntSushi/toml
+    vendor/github.com/cloudflare/cfssl
+    vendor/github.com/codegangsta/cli
+  ~~vendor/github.com/containerd/aufs
+    vendor/github.com/containerd/btrfs
+    vendor/github.com/containerd/cgroups
+    vendor/github.com/containerd/console
+    vendor/github.com/containerd/containerd
+  ~~vendor/github.com/containerd/continuity
+  ~~vendor/github.com/containerd/cri
+    vendor/github.com/containerd/fifo
+  ~~vendor/github.com/containerd/go-cni
+  ~~vendor/github.com/containerd/go-runc
+  ~~vendor/github.com/containerd/ttrpc
+    vendor/github.com/containerd/typeurl
+  ~~vendor/github.com/containerd/zfs
+  ~~vendor/github.com/containernetworking/cni
+  ~~vendor/github.com/containernetworking/plugins
+    vendor/github.com/coreos/etcd
+    vendor/github.com/coreos/go-semver
+    vendor/github.com/coreos/go-systemd
+    vendor/github.com/coreos/pkg
+    vendor/github.com/cpuguy83/go-md2man
+    vendor/github.com/davecgh/go-spew
+    vendor/github.com/deckarep/golang-set
+    vendor/github.com/denverdino/aliyungo
+    vendor/github.com/dgrijalva/jwt-go
+    vendor/github.com/docker/distribution
+    vendor/github.com/docker/docker
+    vendor/github.com/docker/docker-credential-helpers
+    vendor/github.com/docker/go
+    vendor/github.com/docker/goamz
+    vendor/github.com/docker/go-connections
+    vendor/github.com/docker/go-events
+    vendor/github.com/docker/go-metrics
+    vendor/github.com/docker/go-units
+    vendor/github.com/docker/libkv
+    vendor/github.com/docker/libnetwork
+    vendor/github.com/docker/libtrust
+  ~~vendor/github.com/docker/licensing
+    vendor/github.com/docker/spdystream
+    vendor/github.com/docker/swarmkit
+    vendor/github.com/dustin/go-humanize
+    vendor/github.com/emicklei/go-restful
+  ~~vendor/github.com/fernet/fernet-go
+    vendor/github.com/fluent/fluent-logger-golang
+    vendor/github.com/flynn-archive/go-shlex
+    vendor/github.com/fsnotify/fsnotify
+    vendor/github.com/garyburd/redigo
+    vendor/github.com/ghodss/yaml
+    vendor/github.com/go-check/check
+    vendor/github.com/godbus/dbus
+    vendor/github.com/gogo/googleapis
+    vendor/github.com/gogo/protobuf
+    vendor/github.com/go-ini/ini
+  ~~vendor/github.com/golang/gddo
+    vendor/github.com/golang/glog
+    vendor/github.com/golang/protobuf
+    vendor/github.com/googleapis/gax-go
+    vendor/github.com/googleapis/gnostic
+    vendor/github.com/google/btree
+    vendor/github.com/google/certificate-transparency-go
+    vendor/github.com/google/go-cmp
+    vendor/github.com/google/gofuzz
+    vendor/github.com/google/shlex
+    vendor/github.com/gorilla/context
+    vendor/github.com/gorilla/handlers
+    vendor/github.com/gorilla/mux
+  ~~vendor/github.com/Graylog2/go-gelf
+    vendor/github.com/gregjones/httpcache
+    vendor/github.com/grpc-ecosystem/go-grpc-prometheus
+    vendor/github.com/grpc-ecosystem/grpc-gateway
+  ~~vendor/github.com/grpc-ecosystem/grpc-opentracing
+    vendor/github.com/hashicorp/consul
+    vendor/github.com/hashicorp/errwrap
+  ~~vendor/github.com/hashicorp/go-immutable-radix
+    vendor/github.com/hashicorp/golang-lru
+    vendor/github.com/hashicorp/go-memdb
+    vendor/github.com/hashicorp/go-msgpack
+    vendor/github.com/hashicorp/go-multierror
+    vendor/github.com/hashicorp/go-sockaddr
+    vendor/github.com/hashicorp/go-version
+    vendor/github.com/hashicorp/memberlist
+    vendor/github.com/hashicorp/serf
+    vendor/github.com/imdario/mergo
+    vendor/github.com/inconshreveable/mousetrap
+  ~~vendor/github.com/ishidawataru/sctp
+    vendor/github.com/jmespath/go-jmespath
+    vendor/github.com/json-iterator/go
+    vendor/github.com/kr/pty
+    vendor/github.com/mattn/go-shellwords
+    vendor/github.com/matttproud/golang_protobuf_extensions
+    vendor/github.com/Microsoft/go-winio
+    vendor/github.com/Microsoft/hcsshim
+    vendor/github.com/Microsoft/opengcs
+    vendor/github.com/miekg/dns
+    vendor/github.com/miekg/pkcs11
+    vendor/github.com/mistifyio/go-zfs
+    vendor/github.com/mitchellh/hashstructure
+    vendor/github.com/mitchellh/mapstructure
+  ~~vendor/github.com/moby/buildkit
+    vendor/github.com/modern-go/concurrent
+    vendor/github.com/modern-go/reflect2
+  ~~vendor/github.com/morikuni/aec
+    vendor/github.com/ncw/swift
+  ~~vendor/github.com/Nvveen/Gotty
+    vendor/github.com/opencontainers/go-digest
+    vendor/github.com/opencontainers/image-spec
+    vendor/github.com/opencontainers/runc
+    vendor/github.com/opencontainers/runtime-spec
+    vendor/github.com/opencontainers/runtime-tools
+    vendor/github.com/opencontainers/selinux
+    vendor/github.com/opentracing-contrib/go-stdlib
+    vendor/github.com/opentracing/opentracing-go
+    vendor/github.com/pborman/uuid
+    vendor/github.com/peterbourgon/diskv
+  ~~vendor/github.com/phayes/permbits
+    vendor/github.com/philhofer/fwd
+    vendor/github.com/pivotal-golang/clock
+    vendor/github.com/pkg/errors
+    vendor/github.com/pmezard/go-difflib
+    vendor/github.com/prometheus/client_golang
+    vendor/github.com/prometheus/client_model
+    vendor/github.com/prometheus/common
+    vendor/github.com/prometheus/procfs
+    vendor/github.com/RackSec/srslog
+    vendor/github.com/rcrowley/go-metrics
+    vendor/github.com/russross/blackfriday
+    vendor/github.com/samuel/go-zookeeper
+    vendor/github.com/satori/go.uuid
+    vendor/github.com/sean-/seed
+    vendor/github.com/seccomp/libseccomp-golang
+    vendor/github.com/shurcooL/sanitized_anchor_name
+    vendor/github.com/sirupsen/logrus
+  ~~vendor/github.com/spf13/cobra
+  ~~vendor/github.com/spf13/pflag
+    vendor/github.com/stevvooe/resumable
+    vendor/github.com/stretchr/testify
+    vendor/github.com/syndtr/gocapability
+    vendor/github.com/tchap/go-patricia
+    vendor/github.com/theupdateframework/notary
+    vendor/github.com/tinylib/msgp
+  ~~vendor/github.com/tonistiigi/fsutil
+  ~~vendor/github.com/tonistiigi/units
+    vendor/github.com/ugorji/go
+    vendor/github.com/urfave/cli
+    vendor/github.com/vbatts/tar-split
+    vendor/github.com/vdemeester/shakers
+    vendor/github.com/vishvananda/netlink
+    vendor/github.com/vishvananda/netns
+    vendor/github.com/xeipuuv/gojsonpointer
+    vendor/github.com/xeipuuv/gojsonreference
+    vendor/github.com/xeipuuv/gojsonschema
+    vendor/github.com/xenolf/lego
+    vendor/github.com/yvasiyarov/go-metrics
+    vendor/github.com/yvasiyarov/gorelic
+    vendor/github.com/yvasiyarov/newrelic_platform_go
+    vendor/go.etcd.io
+    vendor/golang.org
+    vendor/google.golang.org
+    vendor/go.opencensus.io
+    vendor/gopkg.in
+    vendor/gotest.tools
+  ~~vendor/k8s.io
+    vendor/rsc.io
+  ~~vendor/vbom.ml
+Files-Excluded-containerd:
+    */docs
+Files-Excluded-distribution:
+    */docs
+Comment:
+ Thanks to custom repack script, Files-Excluded section is applied to all
+ components otherwise individual Files-Excluded-{component} sections would
+ contain too much duplication.
+
+Files: *
+Copyright: 2012-2018 Docker, Inc. <support@docker.com>
+License: Apache-2.0
+
+Files:
+    cli/contrib/completion/zsh/*
+Copyright: 2013-2014 Felix Riedel
+License: BSD-3-clause-Generic
+
+Files:
+    engine/contrib/init/openrc/docker.initd
+Copyright: 1999-2013 Gentoo Foundation
+License: GPL-2
+
+Files:
+    engine/contrib/selinux-fedora-24/docker-engine-selinux/*
+    engine/contrib/selinux-oraclelinux-7/docker-engine-selinux/*
+Copyright: 2012-2016 Docker Inc.
+License: GPL-2
+Comment: No explicit copyright statement; assuming upstream copyright.
+
+Files:
+    engine/contrib/syntax/vim/*
+Copyright: 2013 Honza Pokorny
+License: BSD-2-clause
+
+Files:
+    engine/pkg/symlink/fs.go
+Copyright: 2014-2016 The Docker & Go Authors
+License: BSD-3-clause-Google
+
+Files:
+    */vendor/github.com/bugsnag/osext/osext*
+    */vendor/github.com/containerd/continuity/sysx/asm.s
+Copyright:
+    2008      Google Inc.
+    2014-2016 The Go Authors
+License: BSD-3-clause-Google
+
+Files:
+    */vendor/github.com/containernetworking/plugins/*
+Copyright: 2015-2017 CNI authors
+License: Apache-2.0
+
+Files:
+    */vendor/github.com/docker/licensing
+Copyright: 2013-2017 Docker, Inc.
+License: Apache-2.0
+
+Files:
+    */vendor/github.com/fernet/fernet-go/*
+Copyright: 2013 Keith Rarick
+License: Expat
+
+Files:
+    */vendor/github.com/Graylog2/go-gelf/*
+Copyright: 2012 SocialCode
+License: Expat
+
+Files:
+    */vendor/github.com/grpc-ecosystem/grpc-opentracing/*
+Copyright: 2016, gRPC Ecosystem
+License: BSD-3-clause-GRPC-Opentracing
+
+Files:
+    */vendor/github.com/ishidawataru/sctp/*
+Copyright: N/A
+License: Apache-2.0
+Comment: The upstream distribution does not contain an explicit statement of
+ copyright ownership. Pursuant to the Berne Convention for the Protection of
+ Literary and Artistic Works, it is assumed that all content is copyright by
+ its respective authors unless otherwise stated.
+ .
+ https://github.com/ishidawataru/sctp/issues/23
+
+Files:
+    vendor/github.com/morikuni/aec/*
+Copyright: 2016 Taihei Morikuni
+License: Expat
+
+Files:
+    */vendor/github.com/Nvveen/Gotty/*
+Copyright: 2012  Neal van Veen <nealvanveen@gmail.com>
+License: BSD-2-clause~freebsd
+
+Files:
+    */vendor/github.com/phayes/permbits/*
+Copyright: 2016 Patrick D Hayes
+License: Expat
+
+Files:
+    */vendor/github.com/spf13/cobra/*
+Copyright:
+    2013 Steve Francia <spf@spf13.com>
+    2015 Red Hat Inc.
+    2016 French Ben
+License: Apache-2.0
+
+Files:
+    */vendor/github.com/spf13/pflag/*
+Copyright:
+    2012      The Go Authors
+    2012–2015 Alex Ogier <alex.ogier@gmail.com>
+License: BSD-3-clause-Google
+
+Files:
+    */vendor/github.com/tonistiigi/fsutil/*
+Copyright: 2017 Tõnis Tiigi <tonistiigi@gmail.com>
+License: Expat
+
+Files:
+    */vendor/github.com/yvasiyarov/*
+Copyright:
+    2012 Richard Crowley
+    2013 Yuriy Vasiyarov
+License: BSD-2-clause
+
+Files:
+    vendor/gotest.tools/*
+Copyright: 2018 gotest.tools authors
+License: Apache-2.0
+
+Files:
+    vendor/gotest.tools/internal/difflib/*
+Copyright: 2013 Patrick Mezard
+License: BSD-3-clause-Generic
+
+Files:
+    */vendor/k8s.io/*
+Copyright: 2014-2018 The Kubernetes Authors.
+License: Apache-2.0
+
+Files:
+    */vendor/k8s.io/apimachinery/third_party/forked/golang/reflect/deep_equal.go
+Copyright: 2009 The Go Authors
+License: BSD-3-clause-Google
+
+Files:
+    */vendor/vbom.ml/util/*
+Copyright: 2015 Frits van Bommel
+License: Expat
+
+Files: debian/*
+Copyright:
+    2016-2018 Dmitry Smirnov <onlyjob@debian.org>
+    2013-2014 Daniel Mizyrycki <daniel@docker.com>
+    2013-2014 Paul Tagliamonte <paultag@debian.org>
+    2012-2014 Michael Stapelberg <stapelberg@debian.org>
+    2013-2016 Tianon Gravi <tianon@debian.org>
+    2013-2014 Johan Euphrosine <proppy@google.com>
+    2014      Prach Pongpanich <prachpub@gmail.com>
+    2016      Tim Potter <timothy.potter@hpe.com>
+    2016      Michael Hudson-Doyle <michael.hudson@ubuntu.com>
+License: Apache-2.0
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache version 2.0 license
+ can be found in "/usr/share/common-licenses/Apache-2.0".
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-2-clause~freebsd
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+  1. Redistributions of source code must retain the above copyright notice, this
+     list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ The views and conclusions contained in the software and documentation are those
+ of the authors and should not be interpreted as representing official policies,
+ either expressed or implied, of the FreeBSD Project.
+
+License: BSD-3-clause-Generic
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above copyright
+       notice, this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+     * Neither the name of the <organization> nor the
+       names of its contributors may be used to endorse or promote products
+       derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause-Google
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+    * Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+ copyright notice, this list of conditions and the following disclaimer
+ in the documentation and/or other materials provided with the
+ distribution.
+    * Neither the name of Google Inc. nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause-GRPC-Opentracing
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ .
+ * Neither the name of grpc-opentracing nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: GPL-2
+ This file is part of Buildbot.  Buildbot is free software: you can
+ redistribute it and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation, version 2.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program; if not, write to the Free Software Foundation, Inc., 51
+ Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the complete text of the GNU GPL v2 license can be found in
+ "/usr/share/common-licenses/GPL-2".
+
+License: ISC
+ Permission to use, copy, modify, and/or distribute this software for
+ any purpose with or without fee is hereby granted, provided that the
+ above copyright notice and this permission notice appear in all
+ copies.
+ ․
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.

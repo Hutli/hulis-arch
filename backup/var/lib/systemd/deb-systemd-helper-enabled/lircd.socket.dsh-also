@@ -1,0 +1,2 @@
+/etc/systemd/system/sockets.target.wants/lircd.socket
+/etc/systemd/system/multi-user.target.wants/lircd.service
