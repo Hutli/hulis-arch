@@ -1,6 +1,8 @@
 #!/bin/bash
 
 pacman -S i3blocks
+pacaur -S pacman-contrib
+pacaur -S sysstat
 
 feh --bg-scale ./backgrounds/windows-xp-bliss.jpg
 

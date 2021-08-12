@@ -1,5 +1,0 @@
-# Derivative-specific field validation
-#
-# format: field ~~ ^regex$ ~~ explanation
-
-source	~~	.	~~	always matches

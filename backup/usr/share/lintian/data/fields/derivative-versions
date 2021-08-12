@@ -1,7 +1,0 @@
-# Derivative-specific version number validation
-#
-# Checked in order, warns with $explanation if $regex does not match
-#
-# format: $regex ~~ explanation
-
-.	~~	always matches
